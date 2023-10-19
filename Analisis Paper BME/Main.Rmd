@@ -1,0 +1,729 @@
+---
+title: "Biomedical engineering research in Chilean universities - A bibliometric analysis"
+author: |
+  | Manuel Villalobos Cid 
+  | Departamento de Ingeniería Informática, Universidad de Santiago de Chile
+bibliography: references.bib
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    toc_depth: 4
+  pdf_document:
+    toc: yes
+  html_document:
+    code_folding: hide
+    fig_caption: yes
+    number_sections: yes
+    theme: yeti
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+css: custom.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<style>
+body {
+text-align: justify;}
+
+
+#content{
+    max-width: 1500px;
+    margin-left:300px !important;
+}
+
+#table-of-contents{
+    width: 600px% !important;
+}
+
+</style>
+
+```{r, echo=FALSE}
+htmltools::img(src = knitr::image_uri("logo.png"), 
+               alt = 'logo', 
+               style = 'position:absolute; top:5%; left:93%; padding:0px;height:75px;width:75px')
+```
+## 1. Abstract
+
+Biomedical engineering (BME) combines engineering, biology, and medicine to develop innovative
+healthcare solutions. There is an increasing demand for BME professionals following technological and scientific advances. In Chile, only three universities offer undergraduate BME programs: Universidad de Valparaíso, Universidad de Concepción, and Universidad de Santiago de Chile. Each institution has defined its curriculum, professional profile, and research focus based on its perspective of the country’s needs. However, the scope of their research contribution has not been studied. In this work, we perform a comprehensive bibliometric  analysis using data from the SCOPUS database to evaluate publications by researchers affiliated with Chilean
+undergraduate BME programs from 2000 to 2022. The objective is to identify the research areas of BME in Chile,
+understand the similarities and differences between universities, analyse their research areas, explore collaboration relationships, and characterise the discipline’s evolution. The main contributions of this work are (1) a quantitative and qualitative analysis of BME research in Chile, (2) the identification of BME research areas and their development over time, (3) the creation of a dashboard-style web tool, and (4) proposing a robust methodology for bibliometric analysis applicable to BME literature in Chile and similar contexts. This work represents the first collaboration involving authors from all universities with undergraduate Chilean BME programs.
+
+
+
+## 2. Code
+
+This document was created to present the analysis related to the paper and to demonstrate the methodology behind the creation of the figures.
+
+### 2.1 BME undergraduate profiles
+
+```{r, message=F,verbose=F,fig.height=18, fig.width=18}
+# Load necessary libraries
+library("fmsb")  # Provides statistical functions for exploratory data analysis.
+library("dplyr")  # Used for data manipulation and transformation.
+library("gridExtra")  # Allows arranging multiple grid-based figures on one page.
+
+# Read data from CSV file
+data_courses = read.csv("Data/BD_cursos.csv", sep=";", header = TRUE)
+
+# Dictionary of classes of courses
+course_classes = sort(unique(data_courses$Clasificación))
+
+universities = c("UV", "UCM","UAI","DuocUC","USACH", "UTalca", "UdeC")
+frequency_course = NULL
+
+titles_course = c("UV (67 courses, 12 semesters)", "UCM (55 courses, 10 semesters)","UAI (63 courses, 11 semesters)",
+                  "DuocUC (48 courses, 8 semesters)","USACH (55 courses, 11 semesters)", "UTalca (62 courses, 12 semesters)", 
+                  "UdeC (52 courses, 11 semesters)")
+
+colours = c("lightpink1","paleturquoise3","sandybrown","khaki","mediumaquamarine","lightsteelblue","plum3")
+
+# Loop through universities
+for (a in universities) {
+  # Filter by university
+  idx = which(data_courses$Universidad == a)
+  data_subset = data_courses$Clasificación[idx]
+  
+  # Calculate the frequency of elements in vector_1 in vector_2
+  freq_tmp = table(factor(data_subset, levels = unique(course_classes)))
+  frequency_course = rbind(frequency_course, round(freq_tmp/sum(freq_tmp), 3))
+}
+frequency_course = as.data.frame(frequency_course)
+rownames(frequency_course) = universities
+
+# Set up plot parameters
+par(mar=c(1, 2, 2, 1))  # Decrease default margin
+idx = nrow(frequency_course)
+layout(matrix(1:8, ncol=2))  # Arrange plots on the device (suppress messages)
+
+# Compute distance matrix and dendrogram
+distancia_courses = dist(frequency_course)
+hc = hclust(distancia_courses, method = "average")
+
+# Adjust bottom margin for dendrogram
+par(mar = c(5, 4, 2, 2) + 0.1)  
+
+# Plot dendrogram
+plot(as.dendrogram(hc), main = "Universities/centres - BME programs", 
+     xlab = "Universities", ylab = "Distance")  
+
+# Plot radar charts for each university
+invisible(lapply(1:idx, function(i) { 
+  
+  data_plot = rbind(0.8, 0, frequency_course[i,])
+  
+  radarchart(data_plot,
+             axistype = 1,vlabels = colnames(data),
+             # Customize the polygon
+             pcol = colours[i],pfcol = scales::alpha(colours[i], 0.3), plwd = 2, plty = 1,
+             # Customize the grid
+             cglcol = "gray", cglty = 1, cglwd = 0.8, calcex = 0.8,
+             # Customize the axis
+             axislabcol = "black", vlcex=1.2,
+             # Variable labels
+             caxislabels = seq(0,0.8,by=0.2), title = titles_course[i])
+}))
+
+```
+
+### 2.2 Total publications and authors
+
+```{r, message=F,verbose=F, fig.width=10,fig.height=5}
+# Load the ggplot2 library for creating visualizations
+library("ggplot2")
+
+# Load the latticeExtra library for extending lattice graphics
+library("latticeExtra")
+
+# Read data from the CSV file "BD_indexes.csv" with semicolon (;) as the delimiter and headers
+datos = read.csv("Data/BD_indexes.csv", sep=";", header = TRUE)
+
+# Convert the 'University' column to a factor and set custom order for levels
+datos$University = factor(datos$University, levels=c('USACH', 'UV', 'UdeC'))
+
+# Create a 3D cloud plot for TP (Total publications) using ggplot2 with specified parameters
+g1 = cloud(TP ~ Year + University, datos, panel.3d.cloud=panel.3dbars, alpha.facet=1,
+           col.facet=c("mediumspringgreen", "lightpink", "orchid")[datos$University], 
+           xbase=1, ybase=0.5, scales=list(arrows=FALSE, col=1), xlim=c(2000, 2023),
+           par.settings=list(axis.line=list(col="transparent")), xlab="Years", ylab="Universities", 
+           zlab=list("Total publications", rot=90))
+
+# Create a 3D cloud plot for NA_c (Number of authors) using ggplot2 with specified parameters
+g2 = cloud(NA_c ~ Year + University, datos, panel.3d.cloud=panel.3dbars, alpha.facet=1,
+           col.facet=c("mediumspringgreen", "lightpink", "orchid")[datos$University], 
+           xbase=1, ybase=0.5, scales=list(arrows=FALSE, col=1), xlim=c(2000, 2023),
+           par.settings=list(axis.line=list(col="transparent")), xlab="Years", ylab="Universities", 
+           zlab=list("Number of authors", rot=90))
+
+# Arrange the two 3D cloud plots in a grid layout with 2 columns
+grid.arrange(g1, g2, ncol=2)
+```
+
+
+### 2.3 Area frequency 
+
+```{r, message=F,verbose=F,warning=F,fig.width=18,fig.height=18}
+# Load necessary libraries
+library("ggplot2")  # For plotting
+library("dplyr")  # For data manipulation
+
+
+# Load the data from the specified CSV file
+data_frequency = read.csv("Data/BD_graficos_keyword.csv", sep = ",", header = TRUE)
+
+
+# Order the data by 'area'
+data_frequency = data_frequency[order(data_frequency$area),]
+
+# Convert 'area' to a factor with ordered levels
+data_frequency$area = factor(data_frequency$area, levels = unique(sort(data_frequency$area, 
+                                                                       decreasing = FALSE)))
+
+# Extract unique rows based on specified columns
+data_filtered = unique(data_frequency[,-c(1, 2, 4, 6)])
+
+# Convert 'Año' to numeric
+data_filtered$Year = as.numeric(data_filtered$Año)
+
+#=============================
+# Frequency of publications for Biomedical Engineering
+#=============================
+
+# Create a plot for Biomedical Engineering
+biomed_plot = ggplot() +
+  geom_bar(data = data_filtered, aes(x = Año, y = frec_biomedica), stat = "identity", 
+           fill = "deepskyblue4", color = "black", alpha = 0.8) +
+  facet_grid(area ~ ., switch = "y") +
+  theme(
+    strip.text.y.left = element_text(angle = 0),
+    panel.grid.major = element_line(color = "gray90", size = 0.5),  # Color gris para las líneas de la grilla
+    panel.grid.minor = element_blank(),  # Eliminar las líneas de grilla menores
+    panel.background = element_rect(fill = "white", color = "black", size = 0.5, linetype = "solid"),  # Fondo blanco
+    strip.background = element_rect(fill = alpha("deepskyblue4", 0.1), color = "black"),
+      axis.text.x = element_text(size = 8),  # Set font size for the x-axis labels
+      axis.text.y = element_text(size = 8),  # Set font size for the y-axis labels
+      axis.title.x = element_text(size = 10),  # Set font size for the x-axis title
+      axis.title.y = element_text(size = 10)   # Set font size for the y-axis title
+  ) +
+  ylab("Frequency") +
+  xlab("Years") +
+  scale_y_continuous(breaks = c(0, 50, 100), limits = c(0, 100))  + ggtitle("Combined BME programs") + 
+  scale_x_continuous(breaks = seq(2000, 2023, 2), limits = c(2000, 2023))  # Adjust x-axis breaks
+
+#=============================
+# UV (Universidad de Valparaíso)
+#=============================
+
+# Extract data for Universidad de Valparaíso (UV)
+data_filtered = data_frequency[,-c(1,2,7)]
+uv_data = data_filtered[data_filtered$Universidad == "UV",]
+uv_data = unique(uv_data)
+
+# Create a plot for UV
+uv_plot = ggplot() +
+  geom_bar(data = uv_data, aes(x = Año, y = frec_universidad), stat = "identity", 
+           fill = "hotpink3", color = "black", alpha = 0.8) +
+  facet_grid(area ~ ., switch = "y") +
+  theme(
+    strip.text.y.left = element_text(angle = 0),
+    panel.grid.major = element_line(color = "gray90", size = 0.5),  # Color gris para las líneas de la grilla
+    panel.grid.minor = element_blank(),  # Eliminar las líneas de grilla menores
+    panel.background = element_rect(fill = "white", color = "black", size = 0.5, linetype = "solid"),  # Fondo blanco
+    strip.background = element_rect(fill = alpha("hotpink3", 0.1), color = "black"),
+    axis.text.x = element_text(size = 8),  # Set font size for the x-axis labels
+    axis.text.y = element_text(size = 8),  # Set font size for the y-axis labels
+    axis.title.x = element_text(size = 10),  # Set font size for the x-axis title
+    axis.title.y = element_text(size = 10)   # Set font size for the y-axis title
+  ) +
+  ylab("Frequency") +
+  xlab("Years") +
+  scale_y_continuous(breaks = c(0, 40, 80), limits = c(0, 80)) + ggtitle("UV") + 
+  scale_x_continuous(breaks = seq(2000, 2023, 2), limits = c(2000, 2023))  # Adjust x-axis breaks
+
+#=============================
+# UdeC (Universidad de Concepción)
+#=============================
+
+# Extract data for Universidad de Concepción (UdeC)
+udec_data = data_filtered[data_filtered$Universidad == "UdeC",]
+udec_data = unique(udec_data)
+
+# Create a plot for UdeC
+udec_plot = ggplot() +
+  geom_bar(data = udec_data, aes(x = Año, y = frec_universidad), stat = "identity", 
+           fill = "mediumorchid4", color = "black", alpha = 0.8) +
+  facet_grid(area ~ ., switch = "y") +
+  theme(
+    strip.text.y.left = element_text(angle = 0),
+    panel.grid.major = element_line(color = "gray90", size = 0.5),  # Color gris para las líneas de la grilla
+    panel.grid.minor = element_blank(),  # Eliminar las líneas de grilla menores
+    panel.background = element_rect(fill = "white", color = "black", size = 0.5, linetype = "solid"),  # Fondo blanco
+    strip.background = element_rect(fill = alpha("mediumorchid4", 0.1), color = "black"),
+    axis.text.x = element_text(size = 8),  # Set font size for the x-axis labels
+    axis.text.y = element_text(size = 8),  # Set font size for the y-axis labels
+    axis.title.x = element_text(size = 10),  # Set font size for the x-axis title
+    axis.title.y = element_text(size = 10)   # Set font size for the y-axis title
+  ) +
+  ylab("Frequency") +
+  xlab("Years") +
+  scale_y_continuous(breaks = c(0, 40, 80), limits = c(0, 80)) + ggtitle("UdeC") +
+  scale_x_continuous(breaks = seq(2000, 2023, 2), limits = c(2000, 2023))  # Adjust x-axis breaks
+
+
+#=============================
+# USACH (Universidad de Santiago de Chile)
+#=============================
+
+# Extract data for Universidad de Santiago de Chile (USACH)
+usach_data = data_filtered[data_filtered$Universidad == "USACH",]
+usach_data = unique(usach_data)
+
+# Create a plot for USACH
+usach_plot = ggplot() +
+  geom_bar(data = usach_data, aes(x = Año, y = frec_universidad), stat = "identity", 
+           fill = "mediumspringgreen", color = "black", alpha = 0.8) +
+  facet_grid(area ~ ., switch = "y") +
+  theme(
+    strip.text.y.left = element_text(angle = 0),
+    panel.grid.major = element_line(color = "gray90", size = 0.5),  # Color gris para las líneas de la grilla
+    panel.grid.minor = element_blank(),  # Eliminar las líneas de grilla menores
+    panel.background = element_rect(fill = "white", color = "black", size = 0.5, linetype = "solid"),  # Fondo blanco
+    strip.background = element_rect(fill = alpha("mediumspringgreen", 0.1), color = "black"),
+    axis.text.x = element_text(size = 8),  # Set font size for the x-axis labels
+    axis.text.y = element_text(size = 8),  # Set font size for the y-axis labels
+    axis.title.x = element_text(size = 10),  # Set font size for the x-axis title
+    axis.title.y = element_text(size = 10)   # Set font size for the y-axis title
+  ) +
+  ylab("Frequency") +
+  xlab("Years") +
+  scale_y_continuous(breaks = c(0, 40, 80), limits = c(0, 80)) + ggtitle("USACH") +
+  scale_x_continuous(breaks = seq(2000, 2023, 2), limits = c(2000, 2023))  # Adjust x-axis breaks
+
+
+grid.arrange(biomed_plot, uv_plot, udec_plot, usach_plot, ncol=2,nrow=2)
+```
+
+### 2.4 Area relative frequency
+
+```{r, message=F,verbose=F,warning=F,fig.width=18,fig.height=15}
+# Read data from CSV file
+data_plot = read.csv("Data/BD_graficos_keyword.csv", sep = ",", header = TRUE)
+
+# Order data by 'area'
+data_tmp = data_plot[order(data_plot$area),]
+
+# Exclude rows where keyword is "NONE" and calculate the total frequency for each area
+data_exclude = data_tmp[data_tmp$keyword == "NONE",]
+data_exclude = data_exclude %>% 
+  group_by(area) %>% summarise(Frequency = sum(frec_biomedica))
+
+# Calculate total frequency for each area
+data_tmp = data_tmp %>% 
+  group_by(area) %>% summarise(Frequency = sum(frec_biomedica))
+
+# Subtract excluded frequencies from total frequencies
+data_tmp$Frequency = data_tmp$Frequency - data_exclude$Frequency
+
+# Normalize frequencies to get proportions
+data_tmp$Frequency = data_tmp$Frequency / sum(data_tmp$Frequency)
+
+# Convert area to factor and order levels in descending order
+data_tmp = data.frame(data_tmp)
+data_tmp$area = factor(data_tmp$area, levels = unique(sort(data_tmp$area, decreasing = TRUE)))
+
+# Create bar plot
+bar_plot = ggplot(data_tmp, aes(x = reorder(area, Frequency), y = Frequency)) +
+  geom_bar(stat = "identity", fill = "deepskyblue4", alpha = 0.4, color = "deepskyblue4") +
+  theme_minimal() +
+  coord_flip() +
+  labs(x = "Areas of BME") +
+  theme(axis.text.y = element_text(size = 8), 
+        axis.title.x = element_blank(),
+        panel.background = element_rect(fill = "white", color = "black", size = 0.5, linetype = "solid"),
+        legend.position = "none") +
+  ylim(0, 1) + ggtitle("Combined BME programs") +
+  theme(
+      axis.text.x = element_text(size = 8),  # Set font size for the x-axis labels
+      axis.text.y = element_text(size = 8),  # Set font size for the y-axis labels
+      axis.title.x = element_text(size = 10),  # Set font size for the x-axis title
+      axis.title.y = element_text(size = 10)   # Set font size for the y-axis title
+  )
+
+
+
+# Universities and corresponding colors
+universities = c("UV", "UdeC", "USACH")
+colors = c("lightpink1", "plum3", "mediumaquamarine")
+counter = 0
+plots_list = list()
+plots_list[[1]] = bar_plot
+
+# Loop through universities
+for (a in universities) {
+  counter = counter + 1
+  data_tmp = data_plot[order(data_plot$area),]
+
+  # Filter data for the current university
+  data_tmp = data_tmp[data_tmp$Universidad == a,]
+  
+  # Exclude rows where keyword is "NONE" and calculate total frequency for each area
+  data_exclude = data_tmp[data_tmp$keyword == "NONE",]
+  data_exclude = data_exclude %>% 
+    group_by(area) %>% summarise(Frequency = sum(frec_biomedica))
+
+  # Calculate total frequency for each area and subtract excluded frequencies
+  data_tmp = data_tmp %>% 
+    group_by(area) %>% summarise(Frequency = sum(frec_biomedica))
+  data_tmp$Frequency = data_tmp$Frequency - data_exclude$Frequency
+  data_tmp$Frequency=data_tmp$Frequency/sum(data_tmp$Frequency)
+
+  data_tmp = data.frame(data_tmp)
+  data_tmp$area = factor(data_tmp$area, levels=unique(sort(data_tmp$area,decreasing = T)))
+
+  # Create bar plot for the current university
+  plots_list[[counter+1]] = ggplot(data_tmp, aes(x = reorder(area, Frequency), y = Frequency)) +
+    geom_bar(stat = "identity", fill = colors[counter], alpha = 0.4, color = colors[counter]) +
+    theme_minimal() +
+    coord_flip() +
+    labs(x = "Areas of BME") +
+    theme(axis.text.y = element_text(size = 8), 
+          panel.background = element_rect(fill = "white", color = "black", size = 0.5, linetype = "solid"),
+          axis.title.x = element_blank(),
+          legend.position = "none") + ggtitle(universities[counter]) +
+    ylim(0, 1) +
+    theme(
+      axis.text.x = element_text(size = 8),  # Set font size for the x-axis labels
+      axis.text.y = element_text(size = 8),  # Set font size for the y-axis labels
+      axis.title.x = element_text(size = 10),  # Set font size for the x-axis title
+      axis.title.y = element_text(size = 10)   # Set font size for the y-axis title
+    )
+
+}
+
+grid.arrange(grobs = plots_list, ncol = 2)
+```
+
+### 2.5 Keyword frequency
+
+```{r, message=F,verbose=F,warning=F,fig.width=18,fig.height=60,cache=T}
+# Extract unique rows based on specified columns
+data_filtered = unique(data_frequency[,-c(1, 4, 6)])
+
+# Convert 'Año' to numeric
+data_filtered$Año = as.numeric(data_filtered$Año)
+
+
+# Define a function to generate the plot for each area
+plot_frequency = function(data, plot_title) {
+  # Generate the density plot
+  g = ggplot() +
+    geom_bar(data = data, aes(x = Año, y = frec_biomedica), stat = "identity", 
+             fill = "deepskyblue4", color = "black", alpha = 0.8) +
+    facet_grid(keyword ~ ., switch = "y") +
+    theme(
+      strip.text.y.left = element_text(angle = 0),
+    panel.grid.major = element_line(color = "gray90", size = 0.5),  # Color gris para las líneas de la grilla
+    panel.grid.minor = element_blank(),  # Eliminar las líneas de grilla menores
+    panel.background = element_rect(fill = "white", color = "black", size = 0.5, linetype = "solid"),  # Fondo blanco
+    strip.background = element_rect(fill = alpha("deepskyblue4", 0.1), colour = "black"),
+      axis.text.x = element_text(size = 8),  # Set font size for the x-axis labels
+      axis.text.y = element_text(size = 8),  # Set font size for the y-axis labels
+      axis.title.x = element_text(size = 10),  # Set font size for the x-axis title
+      axis.title.y = element_text(size = 10)   # Set font size for the y-axis title
+    ) +
+    ylab("Frequency") + ggtitle(plot_title) +
+    xlab("Years") +
+    scale_y_continuous(breaks = c(0, 50, 110), limits = c(0, 110)) +
+    scale_x_continuous(breaks = seq(2000, 2023, 2), limits = c(2000, 2023))  # Adjust x-axis breaks
+  
+  return(g)
+}
+
+# Get unique areas from the data
+areas = unique(data_filtered$area)
+plots_list = list()
+
+# Generate and plot frequency plots for each area
+for (a in areas) {
+  data_area = data_filtered[which(data_filtered$area == a & data_filtered$keyword != "NONE"),]
+  plot_title = paste("Frequency of Publications for", a)  # Set plot title
+  g = plot_frequency(data_area, plot_title)  # Generate the plot
+  plots_list[[a]] = g
+}
+
+grid.arrange(grobs = plots_list, ncol = 2)
+```
+
+### 2.6 Clustering
+
+```{r, message=F,verbose=F,warning=F,cache=T,fig.height=10}
+# Load required libraries
+library("ggdendro")
+library("ggplot2")
+library("plotly")
+library("dplyr")
+library("shiny")
+library("shinythemes")
+library("DT")
+library("stringr")
+library("wordcloud2")
+library("quanteda")
+library("quanteda.textplots")
+library("quanteda.corpora")
+library("quanteda.textmodels")
+library("quanteda.textstats")
+library("quanteda.textplots")
+library("RColorBrewer")
+library("treemapify")
+library("ggwordcloud")
+library("NbClust")
+library("networkD3")
+library("tidyr")
+library("stringi")
+
+# Read data from CSV files
+data_db = read.csv("Data/BD_Biomedica - BD.csv", sep = ";", header = TRUE)
+data_main = read.csv("Data/BD_Biomedica - Main.csv", sep = ";", header = TRUE)
+data_thesaurus = read.csv("Data/BD_IEEE_tesauro.csv", sep = ";", header = TRUE)
+data_keywords = read.csv("Data/BD_SCOPUS_keywords.csv", sep = ";", header = TRUE)
+
+# Filter data for the specified period
+ini_year = 2020
+last_year = 2022
+data_db_tmp = data_db %>% filter(Año %in% (ini_year:last_year))
+
+# Create thesaurus list
+thesaurus = unique(data_keywords$Keywords)
+
+# Preprocess the text data
+corpus_text = corpus(data_db_tmp, text_field = "Index.keywords")
+token_text = tokens(corpus_text, remove_punct = TRUE, remove_symbols = TRUE, remove_numbers = TRUE, 
+                    remove_url = TRUE, remove_separators = TRUE)
+token_text = tokens_tolower(token_text)
+
+# Find keywords in the text data using the thesaurus list
+kwick_text = kwic(token_text, pattern = phrase(thesaurus))
+kwick_text$from = kwick_text$from = kwick_text$to = kwick_text$pre = kwick_text$post = kwick_text$pattern = NULL
+
+# Merge text data with metadata
+corpus_text = summary(corpus_text, n = length(kwick_text$docname))
+kwick_text = merge(kwick_text, corpus_text[, c("Text", "Año")], by.x = "docname", by.y = "Text")
+kwick_text = merge(kwick_text, corpus_text[, c("Text", "Universidad")], by.x = "docname", by.y = "Text")
+kwick_text = merge(kwick_text, corpus_text[, c("Text", "Nombre")], by.x = "docname", by.y = "Text")
+
+# Preprocess the text data for clustering
+corpus_text = corpus(kwick_text, text_field = "keyword")
+token_text = tokens(corpus_text)
+token_text = tokens_compound(token_text, pattern = phrase(thesaurus))
+
+# Create a document-feature matrix
+df_text = dfm(token_text)
+
+# Group the features by user
+dfmat_users = dfm_group(df_text, groups = Nombre)
+
+# Calculate pairwise correlation distance between users based on text data
+tstat_dist = 1 - as.dist(textstat_simil(dfmat_users, method = "correlation"))
+
+# Perform hierarchical clustering on the correlation distance matrix
+user_clust = hclust(tstat_dist, method = "average")
+idx = match(user_clust$labels, data_main$Nombre)
+codes = data_main$Codigo.Scopus[idx]
+user_clust$labels = codes
+
+# Convert the hierarchical clustering result to dendrogram format
+dendr = as.dendrogram(user_clust)
+
+# Extract dendrogram data for plotting
+dendr = dendro_data(dendr, type = "rectangle") 
+colores = merge(dendr$labels, data_main, by.x = "label", by.y = "Codigo.Scopus", sort = FALSE)[[6]]
+
+# Map university colors
+colores[which(colores == "plum3")] = "blueviolet"
+colores[which(colores == "mediumspringgreen")] = "hotpink"
+colores[which(colores == "lightpink")] = "darkgreen"
+
+# Add university colors to the dendrogram labels
+dendr$labels$colores = colores
+
+# Create and customize the dendrogram plot
+g = ggplot() + 
+  geom_segment(data = segment(dendr), aes(x = x, y = y, xend = xend, yend = yend), color = "darkgray", size = 0.8) +
+  geom_text(data = label(dendr), aes(x = x, y = y, label = label, hjust = 0, color = colores), size = 4) +
+  coord_flip() + scale_y_reverse(expand = c(0.3, 0)) +
+  theme(axis.line.y = element_blank(),
+        axis.ticks.y = element_blank(), text = element_text(size = 12),
+        axis.text.y = element_blank(),
+        axis.title.y = element_blank(),
+        panel.background = element_rect(fill = "white"), legend.position = "NULL",
+        panel.grid = element_blank()) + ylab("Pearson correlation distance") + ylim(1.1, -0.15) + 
+  scale_colour_manual(values = c("blueviolet", "hotpink", "darkgreen"), 
+                      labels = c("UdeC", "UV", "USACH")) +
+  guides(color = guide_legend(title = "Universities"))
+   
+# Print the dendrogram plot
+plot(g)
+```
+
+```{r, message=F,verbose=F,warning=F,cache=T,fig.height=5, fig.width=18}
+
+# By university
+
+ corpus_text = corpus(data_db_tmp, text_field = "Index.keywords")
+ token_text = tokens(corpus_text,remove_punct = T,remove_symbols = T, remove_numbers = T, remove_url = T,remove_separators = T)
+ token_text = tokens_tolower(token_text)
+ kwick_text = kwic(token_text, pattern = phrase(thesaurus))
+ kwick_text$from=kwick_text$from=kwick_text$to=kwick_text$pre=kwick_text$post=kwick_text$pattern=NULL
+ corpus_text =summary(corpus_text,n=length(kwick_text$docname))
+ kwick_text=merge(kwick_text,corpus_text[,c("Text","Año")],by.x="docname",by.y = "Text")
+ kwick_text=merge(kwick_text,corpus_text[,c("Text","Universidad")],by.x="docname",by.y = "Text")
+ kwick_text=merge(kwick_text,corpus_text[,c("Text","Nombre")],by.x="docname",by.y = "Text")
+ corpus_text = corpus(kwick_text,text_field="keyword")
+ token_text = tokens(corpus_text)
+ token_text = tokens_compound(token_text, pattern = phrase(thesaurus))
+
+ df_text = dfm(token_text)
+ dfmat_users = dfm_group(df_text, groups = Universidad)
+
+ tstat_dist = as.dist(textstat_dist(dfmat_users,method="euclidean"))
+
+ user_clust = hclust(tstat_dist,method = "average")
+
+ colores=c("blueviolet","darkgreen","hotpink")
+ colores = colores[1:length(unique(user_clust$labels))]
+
+ dendr2 = dendro_data(user_clust, type="rectangle")
+
+ g1 = ggplot() +
+   geom_segment(data=segment(dendr2), aes(x=x, y=y, xend=xend, yend=yend),color = "darkgray",size=0.8) +
+   geom_text(data=label(dendr2), aes(x=x, y=y, label=label, hjust=0), size=4, color = colores) +
+   coord_flip() + scale_y_reverse(expand=c(0.3, 0)) +
+   theme(axis.line.y=element_blank(),
+         axis.ticks.y=element_blank(),
+         axis.text.y=element_blank(), text = element_text(size = 12),
+         axis.title.y=element_blank(),
+         panel.background=element_rect(fill="white"),
+         panel.grid=element_blank()) + ylab("Euclidean distance") + ylim(330,-30)
+  
+
+ 
+ tstat_dist = 1 - as.dist(textstat_simil(dfmat_users,method="correlation"))
+ user_clust = hclust(tstat_dist,method = "average")
+
+ colores=c("blueviolet","darkgreen","hotpink")
+ colores = colores[1:length(unique(user_clust$labels))]
+
+ dendr2 = dendro_data(user_clust, type="rectangle")
+
+g2 = ggplot() +
+   geom_segment(data=segment(dendr2), aes(x=x, y=y, xend=xend, yend=yend),color = "darkgray",size=0.8) +
+   geom_text(data=label(dendr2), aes(x=x, y=y, label=label, hjust=0), size=4, color = colores) +
+   coord_flip() + scale_y_reverse(expand=c(0.3, 0)) +
+   theme(axis.line.y=element_blank(),
+         axis.ticks.y=element_blank(),
+         axis.text.y=element_blank(), text = element_text(size = 12),
+         axis.title.y=element_blank(),
+         panel.background=element_rect(fill="white"),
+         panel.grid=element_blank()) + ylab("Pearson correlation distance")
+
+grid.arrange(g1,g2, ncol = 2)
+```
+
+### 2.7 Collaborations
+
+```{r, message=F,verbose=F,warning=F,cache=T,fig.height=8}
+library("igraph")
+
+data_main=data_main[order(data_main$Nombre),]
+
+autores_base = data_main$Codigo.Scopus
+
+matriz = matrix(0,length(autores_base),length(autores_base))
+
+colnames(matriz)=rownames(matriz)=data_main$Nombre
+
+for (a in 1:length(data_db$Author.s..ID))
+{
+  autores = strsplit(data_db$Author.s..ID[a],"-")[[1]]
+  interseccion = which(is.element(autores_base,autores))
+  #print(paste(a,"-",interseccion))
+  
+  if (length(interseccion)>1)
+  {combinaciones = combn(interseccion,2,simplify = F)
+  
+  
+    for (b in 1:length(combinaciones))
+    {
+      pos_x = combinaciones[[b]][1]
+      pos_y = combinaciones[[b]][2]
+      
+      #print(paste(a,"---",data_main$Nombre[pos_x],"-",data_main$Nombre[pos_y]))
+      
+      matriz[pos_x,pos_y]=matriz[pos_x,pos_y]+1
+      matriz[pos_y,pos_x]=matriz[pos_y,pos_x]+1
+    }
+  # print(a)
+  }
+
+  
+}
+
+# Ajuste Felipe Bello
+matriz[6,]=matriz[7,]+matriz[8,]
+matriz[,6]=matriz[,7]+matriz[,8]
+matriz = matriz[c(-7,-8),c(-7,-8)]
+                
+diag(matriz) = 0
+
+g = graph.adjacency(matriz, mode="undirected", weighted=TRUE)
+set.seed(20)
+nombres = V(g)$name
+colores = data_main$Colores
+colores=colores[-c(7,8)]
+
+l=layout_(g, with_dh(weight.edge.lengths = edge_density(g)/1000))
+V(g)$label.cex = 1.4
+V(g)$name = seq(1:ncol(matriz))
+plot(g, layout=l, vertex.color=colores, edge.color="darkgray", edge.width=E(g)$weight/15,
+     vertex.size = 12)
+```
+
+Analyzing collaboration patterns over time using a regression model.
+
+```{r, message=F,verbose=F,warning=F}
+years = sort(unique(data_db$Año))
+years = years[-which(years>2022)] 
+
+counter_year = years*0
+idx = 0
+
+for (a in years)
+{ 
+  idx = idx + 1
+  
+  
+  filter_papers = data_db[which(data_db$Año==a),]
+  
+  counter = NULL
+  
+  for (b in 1:length(filter_papers$Author.s..ID))
+  {
+     counter[b] = sum(autores_base %in% strsplit(filter_papers$Author.s..ID[b],"-")[[1]])
+    
+  }
+  
+  counter_year[idx] = length(which(counter>1))
+}
+
+data_lm = data.frame(years,counter_year)
+
+regresion = lm(counter_year~years,data = data_lm)
+
+summary(regresion)
+cor.test(years,counter_year)
+```

@@ -1,0 +1,669 @@
+﻿Universidad;Semestre;Asignatura;Clasificación
+UdeC;1;Física 1;Physical or chemical sciences
+UdeC;1;Álgebra 1;Formal/Engineering sciences
+UdeC;1;Cálculo 2;Formal/Engineering sciences
+UdeC;1;Química general 1;Physical or chemical sciences
+UdeC;1;Introducción a la Ingeniería Biomédica;Introduction/Workshop
+UdeC;2;Física 2;Physical or chemical sciences
+UdeC;2;Álgebra 2;Formal/Engineering sciences
+UdeC;2;Cálculo 2;Formal/Engineering sciences
+UdeC;2;Biología Celular y tisular;Biological sciences
+UdeC;2;Introducción a la innovación en ingeniería;Introduction/Workshop
+UdeC;3;Ecuaciones diferenciales ordinarias;Formal/Engineering sciences
+UdeC;3;Bioestadística;Formal/Engineering sciences
+UdeC;3;Algoritmos y lenguaje de programación;Computing/Informatics
+UdeC;3;Anatomía humana;Biological sciences
+UdeC;4;Sistemas lineales dinámicos;Formal/Engineering sciences
+UdeC;4;Electromagnetismo;Physical or chemical sciences
+UdeC;4;Teoría de circuitos;Electrical engineering
+UdeC;4;Laboratorio de circuitos;Electrical engineering
+UdeC;4;Ciencias ambientales;Biological sciences
+UdeC;5;Sistemas de control;Formal/Engineering sciences
+UdeC;5;Estática;Physical or chemical sciences
+UdeC;5;Electrónica biomédica;Electrical engineering
+UdeC;5;Laboratorio de electrónica;Electrical engineering
+UdeC;5;Gestión y tecnología ambiental;Elective/Other courses
+UdeC;6;Dinámica;Physical or chemical sciences
+UdeC;6;Sistemas digitales;Electrical engineering
+UdeC;6;Sistemas coputacionales;Computing/Informatics
+UdeC;6;Inglés 1;Languages
+UdeC;7;Mecánica de fluidos;Physical or chemical sciences
+UdeC;7;Laboratorio de sistemas embebidos;Electrical engineering
+UdeC;7;Procesamiento digital de señales biomédicas;Biomedical engineering
+UdeC;7;Ciencias biomédica 1;Physical or chemical sciences
+UdeC;7;Inglés 2;Languages
+UdeC;8;Mecánica de sólidos;Physical or chemical sciences
+UdeC;8;Economía;Formal/Engineering sciences
+UdeC;8;Procesamiento digital de imágenes;Biomedical engineering
+UdeC;8;Ciencias biomédica 2;Biological sciences
+UdeC;8;Inglés 3;Languages
+UdeC;9;Gestión de empresas;Social sciences and humanities
+UdeC;9;Equipamiento clínico;Biomedical engineering
+UdeC;9;Diseño en ingeniería biomédica;Biomedical engineering
+UdeC;9;Práctica profesional;Elective/Other courses
+UdeC;9;Electivo 1;Elective/Other courses
+UdeC;9;Electivo 2;Elective/Other courses
+UdeC;9;Complementario 1;Elective/Other courses
+UdeC;10;Proyecto de Memoria de Título;Elective/Other courses
+UdeC;10;Formulación y evaluación de proyectos;Elective/Other courses
+UdeC;10;Proyecto de Ingeniería Biomédica;Elective/Other courses
+UdeC;10;Electivo 3;Elective/Other courses
+UdeC;10;Electivo 4;Elective/Other courses
+UdeC;10;Electivo 5;Elective/Other courses
+UdeC;11;Memoria de título;Elective/Other courses
+UV;1;Fundamentos de Matemáticas;Formal/Engineering sciences
+UV;1;Álgebra;Formal/Engineering sciences
+UV;1;Fundamentos de Física;Physical or chemical sciences
+UV;1;Introducción a la Ingeniería Biomédica;Introduction/Workshop
+UV;1;Desarrollo personal 1;Social sciences and humanities
+UV;2;Cálculo diferencial;Formal/Engineering sciences
+UV;2;Álgebra lineal;Formal/Engineering sciences
+UV;2;Física mecánica;Physical or chemical sciences
+UV;2;Ciencias biomédicas 1;Biological sciences
+UV;2;Desarrollo personal 2;Social sciences and humanities
+UV;3;Cálculo integral;Formal/Engineering sciences
+UV;3;Ecuaciones diferenciales;Formal/Engineering sciences
+UV;3;Ciencias biomédicas 2;Biological sciences
+UV;3;Programación de computadores;Computing/Informatics
+UV;3;Idioma 1;Languages
+UV;4;Cálculo en varias variables;Formal/Engineering sciences
+UV;4;Métodos numéricos y optimización;Formal/Engineering sciences
+UV;4;Física electromagnética;Physical or chemical sciences
+UV;4;Ciencias biomédicas 3;Biological sciences
+UV;4;Gestión de datos de salud;Biomedical engineering
+UV;4;Idioma 2;Languages
+UV;5;Electromedicina 1;Electrical engineering
+UV;5;Laboratorio de electromedicina 1;Electrical engineering
+UV;5;Gráfica en ingeniería;Elective/Other courses
+UV;5;Física, calor y ondas;Physical or chemical sciences
+UV;5;Ciencias biomédicas 4;Biological sciences
+UV;5;Idioma 3;Languages
+UV;5;Taller de integración sello UV 1;Introduction/Workshop
+UV;6;Mediciones biomédicas;Biomedical engineering
+UV;6;Electromedicina 2;Electrical engineering
+UV;6;Laboratorio de electromedicina 2;Electrical engineering
+UV;6;Análisis de sistemas lineales;Formal/Engineering sciences
+UV;6;Probabilidades y estadísticas;Formal/Engineering sciences
+UV;6;Ciencias biomédicas 5;Biological sciences
+UV;6;Taller de integración sello UV 2;Introduction/Workshop
+UV;7;Seguridad hospitalaria;Biomedical engineering
+UV;7;Electromedicina 3;Electrical engineering
+UV;7;Laboratorio de electromedicina 3;Electrical engineering
+UV;7;Procesamiento digital de señales biomédicas;Biomedical engineering
+UV;7;Física para ingeniería biomédica;Biomedical engineering
+UV;7;Fundamentos de salud pública;Biomedical engineering
+UV;7;Taller de integración sello UV 3;Introduction/Workshop
+UV;8;Equipos médicos 1;Biomedical engineering
+UV;8;Ingeniería de control automático;Formal/Engineering sciences
+UV;8;Procesamiento digital de imágenes biomédicas;Biomedical engineering
+UV;8;Ingeniería Biomédica Electivo 1;Elective/Other courses
+UV;8;Fundamentos de Ingeniería clínica y hospitalaria;Biomedical engineering
+UV;8;Taller de integración;Introduction/Workshop
+UV;9;Equipos médicos 2;Biomedical engineering
+UV;9;Equipos médicos 3;Biomedical engineering
+UV;9;Redes de datos y comunicaciones;Formal/Engineering sciences
+UV;9;Ingeniería Biomédica Electivo 2;Elective/Other courses
+UV;9;Gestión de operaciones y procesos hospitalarios;Biomedical engineering
+UV;9;Gestión de organizaciones de salud 1;Biomedical engineering
+UV;10;Equipos médicos 4;Biomedical engineering
+UV;10;Gestión y operaciones de mantenimiento;Biomedical engineering
+UV;10;Sistemas de información para salud;Biomedical engineering
+UV;10;Ingeniería biomédica electivo 3;Elective/Other courses
+UV;10;Gestión de calidad y acredicación;Biomedical engineering
+UV;10;Gestión de organización de salud 2;Biomedical engineering
+UV;11;Proyecto de equipamiento de salud;Biomedical engineering
+UV;11;Diseño y desarrollo de soluciones biomédicas;Biomedical engineering
+UV;11;E-salud y telemedicina;Biomedical engineering
+UV;11;Ingeniería Biomédica 4;Biomedical engineering
+UV;11;Tecnovigilancia y evaluación de tecnologías de salud;Biomedical engineering
+UV;11;Formulación y evaluación de proyectos;Elective/Other courses
+UV;12;Proyecto de ingeniería biomédica;Elective/Other courses
+USACH;1;Cálculo 1 para ingeniería;Formal/Engineering sciences
+USACH;1;Algebra 1 parta ingeniería;Formal/Engineering sciences
+USACH;1;Física 1 para ingeniería;Physical or chemical sciences
+USACH;1;Introducción a la ingeniería biomédica;Introduction/Workshop
+USACH;1;Introducción al diseño en la ingeniería;Introduction/Workshop
+USACH;2;Cálculo 2 para ingeniería;Formal/Engineering sciences
+USACH;2;Álgebra 2 para ingeniería;Formal/Engineering sciences
+USACH;2;Física 2 para ingeniería;Physical or chemical sciences
+USACH;2;Biología celular;Biological sciences
+USACH;2;Fundamentos de programación para ingeniería;Computing/Informatics
+USACH;3;Cálculo 3 para ingeniería;Formal/Engineering sciences
+USACH;3;Análisis estadísitco;Formal/Engineering sciences
+USACH;3;Electricidad y magnetismo;Physical or chemical sciences
+USACH;3;Biología molecular;Biological sciences
+USACH;3;Fundamentos de economía;Formal/Engineering sciences
+USACH;3;Inglés 1;Languages
+USACH;4;Ecuanciones diferenciales y métodos numéricos para biomédica;Formal/Engineering sciences
+USACH;4;Métodos de programación interdisciplinaria;Computing/Informatics
+USACH;4;Ingeniería económica interdisciplinaria;Formal/Engineering sciences
+USACH;4;Fisiología 1;Biological sciences
+USACH;4;Taller de diseño en ingeniería;Introduction/Workshop
+USACH;4;Inglés 2;Languages
+USACH;5;Bioestadística;Formal/Engineering sciences
+USACH;5;Bioética;Biomedical engineering
+USACH;5;Redes eléctricas interdisciplinarias;Electrical engineering
+USACH;5;Fisiología 2;Biological sciences
+USACH;5;Análisis de algoritmos y estructuras de datos interdisciplinarias;Computing/Informatics
+USACH;5;Inglés 3;Languages
+USACH;6;Procesamiento de señales biológicas;Biomedical engineering
+USACH;6;Biomateriales;Biomedical engineering
+USACH;6;Sistemas electrónicos interdisciplinaria;Electrical engineering
+USACH;6;Control de sistemas;Formal/Engineering sciences
+USACH;6;Ingeniería de software interdisciplinaria;Computing/Informatics
+USACH;6;Inglés 4;Languages
+USACH;7;Electromedicina;Electrical engineering
+USACH;7;Biomecánica;Biomedical engineering
+USACH;7;Sistemas digitales y microcontroladores;Electrical engineering
+USACH;7;Mediciones fisiológicas y bioseguridad;Biomedical engineering
+USACH;7;Evaluacion de proyectos;Elective/Other courses
+USACH;8;Ingeniería Clinica;Biomedical engineering
+USACH;8;Bioinstrumentación;Biomedical engineering
+USACH;8;Informática en salud;Biomedical engineering
+USACH;8;Bioinformática;Biomedical engineering
+USACH;8;Análisis de sistemas de salud;Biomedical engineering
+USACH;9;Gesitón de operaciones en salud;Biomedical engineering
+USACH;9;Tópico de especialidad 1 (especialidad en Ing. Biomédica);Biomedical engineering
+USACH;9;Tópico de especialidad 2  (especialidad en Ing. Biomédica);Biomedical engineering
+USACH;9;Tópico de especialidad 3  (especialidad en Ing. Biomédica);Biomedical engineering
+USACH;9;Electivo 1;Elective/Other courses
+USACH;10;Tópico de especialidad 4  (especialidad en Ing. Biomédica);Biomedical engineering
+USACH;10;Tópico de especialidad 5  (especialidad en Ing. Biomédica);Biomedical engineering
+USACH;10;Tópico de especialidad 6 (especialidad en Ing. Biomédica);Biomedical engineering
+USACH;10;Desarrollo e innovación en ingeniería biomédica;Biomedical engineering
+USACH;10;Electivo 2;Elective/Other courses
+USACH;11;Trabajo de titulación;Elective/Other courses
+UCM;1;Introducción a la bioingeniería médica;Introduction/Workshop
+UCM;1;Fundametnos del cuerpo humano 1;Biological sciences
+UCM;1;Fundametnos del cuerpo humano 1;Biological sciences
+UCM;1;Matemática y computación 1;Formal/Engineering sciences
+UCM;1;Física aplicada;Formal/Engineering sciences
+UCM;1;Estructura y relatividad molecular;Biological sciences
+UCM;2;Fundamentos del cuerpo humano 2;Biological sciences
+UCM;2;Fundamentos del cuerpo humano 2;Biological sciences
+UCM;2;Matemática y computación 2;Formal/Engineering sciences
+UCM;2;Bioquímica 1;Physical or chemical sciences
+UCM;2;Metrología de variables biomédicas;Biomedical engineering
+UCM;2;Inglés 1;Languages
+UCM;3;Electrónica 1;Electrical engineering
+UCM;3;Bioestadísticas y metodología de la investigación científica;Formal/Engineering sciences
+UCM;3;Bioquímica 2;Physical or chemical sciences
+UCM;3;Biofísica;Physical or chemical sciences
+UCM;3;Sistemas de señales biomédicas;Biomedical engineering
+UCM;3;Inglés 2;Languages
+UCM;4;Comunicación persona - máquina;Computing/Informatics
+UCM;4;Electrónica 2;Electrical engineering
+UCM;4;Materiales;Physical or chemical sciences
+UCM;4;Instrumentación biomédica;Biomedical engineering
+UCM;4;Taller de investigación y formación 1;Introduction/Workshop
+UCM;4;Inglés III;Languages
+UCM;5;Fisiopatología médica;Biological sciences
+UCM;5;Procesamiento de señales fisiológicas;Biomedical engineering
+UCM;5;Ingeniería de tejidos y órganos;Biomedical engineering
+UCM;5;Empresa y economía;Formal/Engineering sciences
+UCM;5;Mecánica de sistemas;Formal/Engineering sciences
+UCM;5;Introducción a la Fe;Social sciences and humanities
+UCM;5;Ceritificación;Elective/Other courses
+UCM;6;Gestión hospitalaria y telemedicina;Biomedical engineering
+UCM;6;Bioética;Biomedical engineering
+UCM;6;Terapia celular y medicina regenerativas;Biomedical engineering
+UCM;6;Bioinformática;Biomedical engineering
+UCM;6;Ética cristiana;Social sciences and humanities
+UCM;6;Certificación 2;Elective/Other courses
+UCM;7;Inteligencia artificial;Computing/Informatics
+UCM;7;Neuroingeniería;Biomedical engineering
+UCM;7;Biomecánica;Biomedical engineering
+UCM;7;Farmacología molecular;Biomedical engineering
+UCM;7;Metodología de proyectos;Elective/Other courses
+UCM;7;Certificación 3;Elective/Other courses
+UCM;8;Robótica;Electrical engineering
+UCM;8;Imágenes biomédicas;Biomedical engineering
+UCM;8;Electivo I;Elective/Other courses
+UCM;8;Práctica 1;Elective/Other courses
+UCM;8;Nanotecnología;Biomedical engineering
+UCM;8;Taller de investigación y formación 2;Introduction/Workshop
+UCM;9;Práctica 2;Elective/Other courses
+UCM;9;Radioterapia y bioseguridad;Biomedical engineering
+UCM;9;Electivo 2;Elective/Other courses
+UCM;9;Implantología y biomateriales;Biomedical engineering
+UCM;9;Electivo 3;Elective/Other courses
+UCM;10;Proyecto;Elective/Other courses
+UTalca;1;Introducción a las matemáticas;Formal/Engineering sciences
+UTalca;1;Álgebra;Formal/Engineering sciences
+UTalca;1;Química general;Physical or chemical sciences
+UTalca;1;Introducción a la ingeniería en bioinformática;Introduction/Workshop
+UTalca;1;Soluciones algorítmicas;Computing/Informatics
+UTalca;1;Comunicación oral y escrita 1;Social sciences and humanities
+UTalca;2;Cálculo 1;Formal/Engineering sciences
+UTalca;2;Álgebra lineal;Formal/Engineering sciences
+UTalca;2;Química orgánica;Physical or chemical sciences
+UTalca;2;Organización estructural de la célula;Biological sciences
+UTalca;2;Programación 1;Computing/Informatics
+UTalca;2;Comunicación oral y escrita 2;Social sciences and humanities
+UTalca;3;Cálculo 2;Formal/Engineering sciences
+UTalca;3;Física General;Physical or chemical sciences
+UTalca;3;Procesos metabólicos celulares;Biological sciences
+UTalca;3;Probabilidad y estadística;Formal/Engineering sciences
+UTalca;3;Programación avanzada;Computing/Informatics
+UTalca;3;Autogestión del aprendizaje;Social sciences and humanities
+UTalca;4;Ecuaciones diferenciales;Formal/Engineering sciences
+UTalca;4;Electricidad y magnetismo;Physical or chemical sciences
+UTalca;4;Expresión génica y su regulación;Biological sciences
+UTalca;4;Algoritmos y estructura de datos;Computing/Informatics
+UTalca;4;Idioma extranjero 1;Languages
+UTalca;4;Trabajo en equipo y desarrollo de habilidades sociales;Social sciences and humanities
+UTalca;5;Termodinámica;Physical or chemical sciences
+UTalca;5;Análisis de secuencias biológicas;Biological sciences
+UTalca;5;Organizacióny dinámica del genoma;Biological sciences
+UTalca;5;Sistemas operativos;Computing/Informatics
+UTalca;5;Idioma extranjero 2;Languages
+UTalca;5;Comprensión de contextos sociales;Social sciences and humanities
+UTalca;6;Taller de integración;Introduction/Workshop
+UTalca;6;Biofísica;Physical or chemical sciences
+UTalca;6;Teoría de sistemas;Formal/Engineering sciences
+UTalca;6;Bases de datos;Computing/Informatics
+UTalca;6;Idioma extranjero 2;Languages
+UTalca;6;Comprensión de contextos culturales;Social sciences and humanities
+UTalca;6;Deporte 1;Elective/Other courses
+UTalca;7;Modelos matemáticos y sistemas biológicos;Biomedical engineering
+UTalca;7;Bioinformática estructural;Biomedical engineering
+UTalca;7;Minería de datos;Computing/Informatics
+UTalca;7;Taller de programación web;Computing/Informatics
+UTalca;7;Idioma extranjero 4;Languages
+UTalca;7;Ética y responsabilidad social;Biomedical engineering
+UTalca;8;Ensamblado y anotación de genomas;Biomedical engineering
+UTalca;8;Simulación molecular I;Biomedical engineering
+UTalca;8;Fundamentos de administración;Elective/Other courses
+UTalca;8;Procesos bioindustriales;Biomedical engineering
+UTalca;8;Idioma extranjero 5;Languages
+UTalca;8;Responsabilidad social;Elective/Other courses
+UTalca;8;Deporte 2;Elective/Other courses
+UTalca;9;Electivo 1;Elective/Other courses
+UTalca;9;Electivo 2;Elective/Other courses
+UTalca;9;Biotecnología;Biomedical engineering
+UTalca;9;Ingeniería económica y evaluación de proyectos;Formal/Engineering sciences
+UTalca;9;Idioma extranjero 6;Languages
+UTalca;9;Gestión de recursos humanos;Elective/Other courses
+UTalca;10;Electivo 3;Elective/Other courses
+UTalca;10;Proyecto de memoria de título;Elective/Other courses
+UTalca;10;Taller de proyectos biotecnológicos;Elective/Other courses
+UTalca;10;Gestión de la innovación y emprendimiento;Elective/Other courses
+UTalca;11;Electivo 4;Elective/Other courses
+UTalca;12;Memoria de título;Elective/Other courses
+UAI;1;Civilización contemporánea 1;Social sciences and humanities
+UAI;1;Escritura argumentativa core;Social sciences and humanities
+UAI;1;Cálculo diferencial;Formal/Engineering sciences
+UAI;1;Álgebra I;Formal/Engineering sciences
+UAI;1;Programación;Computing/Informatics
+UAI;1;Deporte 1;Elective/Other courses
+UAI;2;Civilización contemporánea 2;Social sciences and humanities
+UAI;2;Física 1;Physical or chemical sciences
+UAI;2;Cálculo integral;Formal/Engineering sciences
+UAI;2;Álgebra lineal;Formal/Engineering sciences
+UAI;2;Taller de Introducción a la ingeniería;Introduction/Workshop
+UAI;2;Deporte 2;Elective/Other courses
+UAI;3;Literatura y humanidades core 1;Social sciences and humanities
+UAI;3;Física 2;Physical or chemical sciences
+UAI;3;Cálulo multivariable;Formal/Engineering sciences
+UAI;3;Fundamentos de ciencias ambientales;Biological sciences
+UAI;3;Probabilidad y estadística;Formal/Engineering sciences
+UAI;3;Taller de expresión oral I;Introduction/Workshop
+UAI;3;Deporte 3;Elective/Other courses
+UAI;4;Literatura y humanidades core 2;Social sciences and humanities
+UAI;4;Física 3;Physical or chemical sciences
+UAI;4;Ecuaciones diferenciales;Formal/Engineering sciences
+UAI;4;Fundamentos de ciencia de datos;Computing/Informatics
+UAI;4;Taller de diseño en ingeniería;Introduction/Workshop
+UAI;4;Práctica operario;Elective/Other courses
+UAI;4;Deporte 4;Elective/Other courses
+UAI;5;Ciencias core 1;Biological sciences
+UAI;5;Biología y ambiente;Biological sciences
+UAI;5;Biología celular y fisiología;Biological sciences
+UAI;5;Bioquímica aplicada;Biological sciences
+UAI;5;Introducción a la bioingeniería;Introduction/Workshop
+UAI;5;Optimización;Computing/Informatics
+UAI;6;Ética core;Biomedical engineering
+UAI;6;Biomateriales;Biomedical engineering
+UAI;6;Genética molecular;Biological sciences
+UAI;6;Ingeniería ambiental;Biological sciences
+UAI;6;Principios de economía;Formal/Engineering sciences
+UAI;6;Taller de innovación y emprendimiento tecnológico;Elective/Other courses
+UAI;7;Arte y humanidades core;Social sciences and humanities
+UAI;7;Biomecánica;Biomedical engineering
+UAI;7;Operaciones unitarias;Formal/Engineering sciences
+UAI;7;Microbiología aplicada;Biomedical engineering
+UAI;7;Formulacion y evaluación de proyectos;Elective/Other courses
+UAI;7;Taller de expresión oral I;Introduction/Workshop
+UAI;8;Bioinformática y ciencia de datos;Biomedical engineering
+UAI;8;Bioprocesos;Biomedical engineering
+UAI;8;Tratamiento de emisiones;Elective/Other courses
+UAI;8;Bioingenieria abiental;Biomedical engineering
+UAI;8;Capstone project;Elective/Other courses
+UAI;8;Liderazgo;Social sciences and humanities
+UAI;9;Valorización de residuos;Elective/Other courses
+UAI;9;Ingeniería genética;Biological sciences
+UAI;9;Optativo profesional I;Biomedical engineering
+UAI;9;Optativo profesional II;Biomedical engineering
+UAI;9;Optativo profesional III;Biomedical engineering
+UAI;10;Pasantía;Elective/Other courses
+UAI;10;Emprendimiento;Elective/Other courses
+UAI;10;Ciencias de la ingeniería;Elective/Other courses
+UAI;10;Magister internacional;Elective/Other courses
+UAI;11;Proyecto final;Elective/Other courses
+UAI;--;Inglés I;Languages
+UAI;--;Inglés II;Languages
+UAI;--;Inglés III;Languages
+DuocUC;1;Ecosistema sanitario;Biomedical engineering
+DuocUC;1;Calidad en salud;Biomedical engineering
+DuocUC;1;Introducción a la informática;Computing/Informatics
+DuocUC;1;Nivelación matemáticas;Formal/Engineering sciences
+DuocUC;1;Comunicación;Social sciences and humanities
+DuocUC;1;Herramientas tecnológicas para la información y comunicación;Social sciences and humanities
+DuocUC;1;Inglés básico 1;Languages
+DuocUC;2;Terminología clínica;Biomedical engineering
+DuocUC;2;Diseño y gestión de requisitos;Computing/Informatics
+DuocUC;2;Modelamiento de base de datos;Computing/Informatics
+DuocUC;2;Herramientas para análisis de la gestión;Elective/Other courses
+DuocUC;2;Habilidades de comunicación efectiva;Social sciences and humanities
+DuocUC;2;Inglés básico 2;Languages
+DuocUC;3;Soporte de softwa;Computing/Informatics
+DuocUC;3;Diseño de prototipos;Computing/Informatics
+DuocUC;3;Consulta de base de datos;Computing/Informatics
+DuocUC;3;Bioestadística y epidemiología;Formal/Engineering sciences
+DuocUC;3;Protocolos de bioseguridad;Biomedical engineering
+DuocUC;3;Inglés básico 3;Languages
+DuocUC;3;Fundamentos de antropología;Elective/Other courses
+DuocUC;4;Modelos sanitarios;Biomedical engineering
+DuocUC;4;Ingeniería de software;Computing/Informatics
+DuocUC;4;Programación de base de datos;Computing/Informatics
+DuocUC;4;Mentalidad emprendedora;Elective/Other courses
+DuocUC;4;Plailla de cálculo avanzado;Elective/Other courses
+DuocUC;4;Inglés básico 3;Languages
+DuocUC;4;Ética para el trabajo;Elective/Other courses
+DuocUC;5;Sistemas de información en salud;Biomedical engineering
+DuocUC;5;Procesos de negocios;Elective/Other courses
+DuocUC;5;Práctica laboral;Elective/Other courses
+DuocUC;5;Reportes de ingeniería biomédica;Biomedical engineering
+DuocUC;5;Inglés intermedio 1;Languages
+DuocUC;5;Ética profesional;Biomedical engineering
+DuocUC;5;Formación complementaria;Elective/Other courses
+DuocUC;6;Codificación en információn clínica;Biomedical engineering
+DuocUC;6;Inteligencia de negocios;Elective/Other courses
+DuocUC;6;Gestión de proyectos 1;Elective/Other courses
+DuocUC;6;Inglés intermedio 2;Languages
+DuocUC;6;Curso de formación cristiana;Elective/Other courses
+DuocUC;6;Formación complementaria;Elective/Other courses
+DuocUC;7;Minería de datos;Computing/Informatics
+DuocUC;7;Big data;Computing/Informatics
+DuocUC;7;Innovación en productos y servicios innovación;Elective/Other courses
+DuocUC;7;Gestión de proyectos 2;Elective/Other courses
+DuocUC;7;Esp Biomédica;Biomedical engineering
+DuocUC;7;Formación complementaria;Elective/Other courses
+DuocUC;8;Práctica progesional;Elective/Other courses
+DuocUC;8;Portafolio de título;Elective/Other courses
+UFSCPA-BioMed;1;Anatomia Básica I;Biological sciences
+UFSCPA-BioMed;1;Biofísica Celular;Biological sciences
+UFSCPA-BioMed;1;Biologia Celular;Biological sciences
+UFSCPA-BioMed;1;Biossegurança e Práticas em Saúde Pública;Biomedical engineering
+UFSCPA-BioMed;1;Introdução a Biomedicina;Biomedical engineering
+UFSCPA-BioMed;1;Leitura e Interpretação Textual em Língua Inglesa I;Languages
+UFSCPA-BioMed;1;Química Geral;Physical or chemical sciences
+UFSCPA-BioMed;1;Química Geral Experimental;Physical or chemical sciences
+UFSCPA-BioMed;1;Responsabilidade Social;Social sciences and humanities
+UFSCPA-BioMed;1;Tutoria I;Elective/Other courses
+UFSCPA-BioMed;2;Anatomia Básica II;Biological sciences
+UFSCPA-BioMed;2;Bioética;Biomedical engineering
+UFSCPA-BioMed;2;Embriologia;Biological sciences
+UFSCPA-BioMed;2;Leitura e Interpretação Textual em Língua Inglesa II;Languages
+UFSCPA-BioMed;2;Metodologia de Extensão;Elective/Other courses
+UFSCPA-BioMed;2;Química Orgânica;Physical or chemical sciences
+UFSCPA-BioMed;2;Química Orgânica Experimental;Physical or chemical sciences
+UFSCPA-BioMed;2;Redação Acadêmica;Languages
+UFSCPA-BioMed;2;Sociologia e Antropologia na Saúde;Social sciences and humanities
+UFSCPA-BioMed;2;Tutoria II;Elective/Other courses
+UFSCPA-BioMed;3;Bioestatística;Formal/Engineering sciences
+UFSCPA-BioMed;3;Bioquímica I;Physical or chemical sciences
+UFSCPA-BioMed;3;Didática, Metodologias e Práticas Educativas em Saúde;Biomedical engineering
+UFSCPA-BioMed;3;Fisiologia Humana Geral I;Biological sciences
+UFSCPA-BioMed;3;Histologia;Biological sciences
+UFSCPA-BioMed;3;Parasitologia e Micologia;Biological sciences
+UFSCPA-BioMed;3;Seminários Integrados de Extensão em Biomedicina I;Biomedical engineering
+UFSCPA-BioMed;4;Bacteriologia;Biological sciences
+UFSCPA-BioMed;4;Biologia Molecular;Biological sciences
+UFSCPA-BioMed;4;Bioquímica II;Physical or chemical sciences
+UFSCPA-BioMed;4;Coleta de Amostras Biológicas;Biological sciences
+UFSCPA-BioMed;4;Fisiologia Humana Geral II;Biological sciences
+UFSCPA-BioMed;4;Metodologia Científica;Elective/Other courses
+UFSCPA-BioMed;4;Metodologias Bioanalíticas;Formal/Engineering sciences
+UFSCPA-BioMed;4;Tutoria III;Elective/Other courses
+UFSCPA-BioMed;5;Bioinformática;Biomedical engineering
+UFSCPA-BioMed;5;Epidemiologia;Biomedical engineering
+UFSCPA-BioMed;5;Física das Radiações;Biomedical engineering
+UFSCPA-BioMed;5;Genética e Evolução;Biological sciences
+UFSCPA-BioMed;5;Imunologia;Biological sciences
+UFSCPA-BioMed;5;Parasitologia Laboratorial;Biological sciences
+UFSCPA-BioMed;5;Projeto de Práticas Extensionistas em Biomedicina I;Biomedical engineering
+UFSCPA-BioMed;5;Virologia Humana;Biological sciences
+UFSCPA-BioMed;6;Bacteriologia Laboratorial;Biological sciences
+UFSCPA-BioMed;6;Bioquímica Laboratorial;Physical or chemical sciences
+UFSCPA-BioMed;6;Imunologia Laboratorial;Biological sciences
+UFSCPA-BioMed;6;Patologia;Biological sciences
+UFSCPA-BioMed;6;Projeto de Práticas Extensionistas em Biomedicina II;Biomedical engineering
+UFSCPA-BioMed;6;Saúde Púbica;Biomedical engineering
+UFSCPA-BioMed;7;Controle de Qualidade Laboratorial;Elective/Other courses
+UFSCPA-BioMed;7;Deontologia Biomédica;Biological sciences
+UFSCPA-BioMed;7;Genômica;Biological sciences
+UFSCPA-BioMed;7;Gerenciamento e Gestão de Serviços e Saúde;Biomedical engineering
+UFSCPA-BioMed;7;Hematologia;Biological sciences
+UFSCPA-BioMed;7;Micologia Laboratorial;Biological sciences
+UFSCPA-BioMed;7;Práticas extensionistas em Biomedicina;Biomedical engineering
+UFSCPA-BioMed;7;Seminários Integrados de Extensão em Biomedicina II;Biomedical engineering
+UFSCPA-BioMed;8;Banco de Sangue;Biological sciences
+UFSCPA-BioMed;8;Bromatologia;Biological sciences
+UFSCPA-BioMed;8;Farmacologia;Biological sciences
+UFSCPA-BioMed;8;Projeto de TCC;Elective/Other courses
+UFSCPA-BioMed;8;Radiologia;Biomedical engineering
+UFSCPA-BioMed;8;Toxicologia;Biological sciences
+UFSCPA-BioMed;8;Uroanálise;Biological sciences
+UFSCPA-BioMed;9;Seminários de acompanhamento de estágio e TCC I;Elective/Other courses
+UFSCPA-BioMed;9;Trabalho de Conclusão de Curso I;Elective/Other courses
+UFSCPA-BioMed;9;Estágio Obrigatório I;Elective/Other courses
+UFSCPA-BioMed;10;Seminários de acompanhamento de estágio e TCC II;Elective/Other courses
+UFSCPA-BioMed;10;Trabalho de Conclusão de Curso II;Elective/Other courses
+UFSCPA-BioMed;10;Estágio Obrigatório II;Elective/Other courses
+UFSCPA-FisMed;1;Acessibilidade;Elective/Other courses
+UFSCPA-FisMed;1;Anatomia;Biological sciences
+UFSCPA-FisMed;1;Cálculo I;Formal/Engineering sciences
+UFSCPA-FisMed;1;Física I;Formal/Engineering sciences
+UFSCPA-FisMed;1;Introdução à Física Médica;Biomedical engineering
+UFSCPA-FisMed;1;Laboratório I;Elective/Other courses
+UFSCPA-FisMed;1;Leitura e Interpretação Textual em Língua Inglesa I;Languages
+UFSCPA-FisMed;1;Tutoria 1;Elective/Other courses
+UFSCPA-FisMed;2;Álgebra Linear;Formal/Engineering sciences
+UFSCPA-FisMed;2;Biofísica;Physical or chemical sciences
+UFSCPA-FisMed;2;Cálculo II;Formal/Engineering sciences
+UFSCPA-FisMed;2;Física II;Formal/Engineering sciences
+UFSCPA-FisMed;2;Laboratório II;Elective/Other courses
+UFSCPA-FisMed;2;Leitura e Interpretação Textual em Língua Inglesa II;Languages
+UFSCPA-FisMed;2;Responsabilidade Social;Social sciences and humanities
+UFSCPA-FisMed;2;Tutoria 2;Elective/Other courses
+UFSCPA-FisMed;3;Algoritmo de Programação;Computing/Informatics
+UFSCPA-FisMed;3;Bioestatística;Formal/Engineering sciences
+UFSCPA-FisMed;3;Educação em Saúde;Biomedical engineering
+UFSCPA-FisMed;3;Equações Diferenciais;Formal/Engineering sciences
+UFSCPA-FisMed;3;Física III;Physical or chemical sciences
+UFSCPA-FisMed;3;Laboratório III;Elective/Other courses
+UFSCPA-FisMed;3;Metodologia de Extensão;Elective/Other courses
+UFSCPA-FisMed;3;Tutoria 3;Elective/Other courses
+UFSCPA-FisMed;4;Bioquímica;Physical or chemical sciences
+UFSCPA-FisMed;4;Biossegurança;Biomedical engineering
+UFSCPA-FisMed;4;Física IV;Physical or chemical sciences
+UFSCPA-FisMed;4;Fundamentos de Programação Científica;Computing/Informatics
+UFSCPA-FisMed;4;Laboratório IV;Elective/Other courses
+UFSCPA-FisMed;4;Matemática Aplicada;Formal/Engineering sciences
+UFSCPA-FisMed;4;Mecânica Clássica;Physical or chemical sciences
+UFSCPA-FisMed;4;Tutoria 4;Elective/Other courses
+UFSCPA-FisMed;5;Cálculo Numérico e Computacional;Formal/Engineering sciences
+UFSCPA-FisMed;5;Eletromagnetismo;Formal/Engineering sciences
+UFSCPA-FisMed;5;Física das Radiações;Physical or chemical sciences
+UFSCPA-FisMed;5;Física Moderna;Physical or chemical sciences
+UFSCPA-FisMed;5;Fisiologia;Biological sciences
+UFSCPA-FisMed;5;Laboratório de Física Moderna;Physical or chemical sciences
+UFSCPA-FisMed;5;Seminário Integrador de Extensão I;Elective/Other courses
+UFSCPA-FisMed;5;Tutoria 5;Elective/Other courses
+UFSCPA-FisMed;6;Efeitos Biológicos das Radiações Ionizantes;Biomedical engineering
+UFSCPA-FisMed;6;Física Quântica;Physical or chemical sciences
+UFSCPA-FisMed;6;Introdução ao Processamento Digital de Sinais;Biomedical engineering
+UFSCPA-FisMed;6;Prática Profissional I;Elective/Other courses
+UFSCPA-FisMed;6;Radiodiagnóstico;Biomedical engineering
+UFSCPA-FisMed;6;Redação Acadêmica;Languages
+UFSCPA-FisMed;6;Seminário Integrador de Extensão II;Elective/Other courses
+UFSCPA-FisMed;6;Tutoria 6;Elective/Other courses
+UFSCPA-FisMed;7;Dosimetria;Biomedical engineering
+UFSCPA-FisMed;7;Física Nuclear;Biomedical engineering
+UFSCPA-FisMed;7;Introdução ao Processamento Digital de Imagens;Biomedical engineering
+UFSCPA-FisMed;7;Medicina Nuclear;Biomedical engineering
+UFSCPA-FisMed;7;Metodologia Científica;Elective/Other courses
+UFSCPA-FisMed;7;Prática Profissional II;Elective/Other courses
+UFSCPA-FisMed;7;Termodinâmica;Physical or chemical sciences
+UFSCPA-FisMed;7;Tutoria 7;Elective/Other courses
+UFSCPA-FisMed;8;Empreendedorismo;Social sciences and humanities
+UFSCPA-FisMed;8;Física das Radiações Não Ionizantes;Biomedical engineering
+UFSCPA-FisMed;8;Mecânica Estatística;Formal/Engineering sciences
+UFSCPA-FisMed;8;Prática Profissional III;Elective/Other courses
+UFSCPA-FisMed;8;Radioterapia;Biomedical engineering
+UFSCPA-FisMed;8;Seminário Integrador de Extensão III;Elective/Other courses
+UFSCPA-FisMed;8;Trabalho de Conclusão do curso I;Elective/Other courses
+UFSCPA-FisMed;8;Tutoria 8;Elective/Other courses
+UFSCPA-FisMed;9;Proteção Radiológica;Biomedical engineering
+UFSCPA-FisMed;9;Trabalho de Conclusão do Curso II;Elective/Other courses
+UFSCPA-FisMed;9;Estágio Curricular Obrigatório;Elective/Other courses
+UFSCPA-FisMed;9;Tutoria 9;Elective/Other courses
+UFSCPA-InfMed;1;Álgebra Linear;Formal/Engineering sciences
+UFSCPA-InfMed;1;Algoritmos e Programação;Computing/Informatics
+UFSCPA-InfMed;1;Anatomia Geral;Biological sciences
+UFSCPA-InfMed;1;Fundamentos de Biologia Celular e Tecidual;Biological sciences
+UFSCPA-InfMed;1;Introdução à Informática em Saúde;Biomedical engineering
+UFSCPA-InfMed;1;Leitura e Interpretação Textual em Língua Inglesa I;Languages
+UFSCPA-InfMed;1;Química Geral e Físico-Química;Physical or chemical sciences
+UFSCPA-InfMed;1;Responsabilidade Social;Social sciences and humanities
+UFSCPA-InfMed;1;Tutoria 1;Elective/Other courses
+UFSCPA-InfMed;2;Arquitetura de Computadores;Computing/Informatics
+UFSCPA-InfMed;2;Bioética;Biomedical engineering
+UFSCPA-InfMed;2;Bioquímica;Physical or chemical sciences
+UFSCPA-InfMed;2;Cálculo I;Formal/Engineering sciences
+UFSCPA-InfMed;2;Leitura e Interpretação Textual em Língua Inglesa II;Languages
+UFSCPA-InfMed;2;Metodologia de Extensão;Elective/Other courses
+UFSCPA-InfMed;2;Políticas Públicas de Saúde;Biomedical engineering
+UFSCPA-InfMed;2;Programação Orientada a Objetos I;Computing/Informatics
+UFSCPA-InfMed;2;Redação Acadêmica;Languages
+UFSCPA-InfMed;2;Telessaúde: Fundamentos e Aplicações;Biomedical engineering
+UFSCPA-InfMed;2;Tutoria 2;Elective/Other courses
+UFSCPA-InfMed;3;Banco de Dados;Computing/Informatics
+UFSCPA-InfMed;3;Biologia Molecular;Biological sciences
+UFSCPA-InfMed;3;Cálculo II;Formal/Engineering sciences
+UFSCPA-InfMed;3;Engenharia de Software I;Computing/Informatics
+UFSCPA-InfMed;3;Estrutura de Dados;Computing/Informatics
+UFSCPA-InfMed;3;Microbiologia e Parasitologia;Biomedical engineering
+UFSCPA-InfMed;3;Sistemas Operacionais;Computing/Informatics
+UFSCPA-InfMed;3;Tutoria 3;Elective/Other courses
+UFSCPA-InfMed;4;Autômatos, Computabilidade e Complexidade;Computing/Informatics
+UFSCPA-InfMed;4;Engenharia de Software II;Computing/Informatics
+UFSCPA-InfMed;4;Fundamentos de Imunologia;Biological sciences
+UFSCPA-InfMed;4;Fundamentos de Redes de Computadores e Sistemas Distribuídos;Computing/Informatics
+UFSCPA-InfMed;4;Genética e Evolução;Biological sciences
+UFSCPA-InfMed;4;Introdução à Bioinformática;Biomedical engineering
+UFSCPA-InfMed;4;Introdução à Inteligência Artificial na Área da Saúde;Biomedical engineering
+UFSCPA-InfMed;4;Introdução ao Processamento Digital de Sinais;Biomedical engineering
+UFSCPA-InfMed;4;Probabilidade e Estatística;Formal/Engineering sciences
+UFSCPA-InfMed;4;Tutoria 4;Elective/Other courses
+UFSCPA-InfMed;5;Biologia Molecular Computacional;Biological sciences
+UFSCPA-InfMed;5;Biotecnologia;Biological sciences
+UFSCPA-InfMed;5;Estatística Inferencial;Formal/Engineering sciences
+UFSCPA-InfMed;5;Introdução ao Processamento Digital de Imagens;Biomedical engineering
+UFSCPA-InfMed;5;Métodos em Patologia para a Informática Biomédica;Biomedical engineering
+UFSCPA-InfMed;5;Reconhecimento de Padrões;Computing/Informatics
+UFSCPA-InfMed;5;Sistemas de Informação para a Informática Biomédica;Biomedical engineering
+UFSCPA-InfMed;5;Tutoria 5;Elective/Other courses
+UFSCPA-InfMed;6;Aspectos de Genômica e Filogenética;Biological sciences
+UFSCPA-InfMed;6;Gerência de Projetos;Social sciences and humanities
+UFSCPA-InfMed;6;Interação Humano-Computador;Computing/Informatics
+UFSCPA-InfMed;6;Interoperabilidade, Padrões e Comunicação;Computing/Informatics
+UFSCPA-InfMed;6;Introdução à Epidemiologia;Biomedical engineering
+UFSCPA-InfMed;6;Metodologia Científica para Informática Biomédica;Biomedical engineering
+UFSCPA-InfMed;6;Técnicas Computacionais de Apoio ao Diagnóstico;Biomedical engineering
+UFSCPA-InfMed;6;Tutoria 6;Elective/Other courses
+UFSCPA-InfMed;7;Empreendedorismo e Inovação;Social sciences and humanities
+UFSCPA-InfMed;7;Modelagem Molecular;Biological sciences
+UFSCPA-InfMed;7;Práticas Extensionistas;Elective/Other courses
+UFSCPA-InfMed;7;Trabalho de Conclusão de Curso I;Elective/Other courses
+UFSCPA-InfMed;8;Educação e Saúde;Biomedical engineering
+UFSCPA-InfMed;8;Trabalho de Conclusão de Curso II;Elective/Other courses
+UFSCPA-GesSau;1;Informática e Saúde;Biomedical engineering
+UFSCPA-GesSau;1;Introdução à Administração;Formal/Engineering sciences
+UFSCPA-GesSau;1;Introdução à Economia;Formal/Engineering sciences
+UFSCPA-GesSau;1;Leitura e Interpretação Textual em Língua Inglesa I;Languages
+UFSCPA-GesSau;1;Matemática Aplicada;Formal/Engineering sciences
+UFSCPA-GesSau;1;Responsabilidade Social;Social sciences and humanities
+UFSCPA-GesSau;1;Saúde Pública;Biomedical engineering
+UFSCPA-GesSau;1;Sociologia e Antropologia da Saúde;Biomedical engineering
+UFSCPA-GesSau;1;Tutoria 1;Elective/Other courses
+UFSCPA-GesSau;2;Controle Social em Saúde;Biomedical engineering
+UFSCPA-GesSau;2;Educação e Saúde;Biomedical engineering
+UFSCPA-GesSau;2;Estudos Organizacionais;Biomedical engineering
+UFSCPA-GesSau;2;Gênero e Sexualidade;Social sciences and humanities
+UFSCPA-GesSau;2;Gestão das Profissões na Saúde;Biomedical engineering
+UFSCPA-GesSau;2;Introdução à Contabilidade;Formal/Engineering sciences
+UFSCPA-GesSau;2;Leitura e Interpretação Textual em Língua Inglesa II;Languages
+UFSCPA-GesSau;2;Metodologia de Extensão;Elective/Other courses
+UFSCPA-GesSau;2;Psicologia Aplicada à Gestão em Saúde;Biomedical engineering
+UFSCPA-GesSau;2;Tutoria 2;Elective/Other courses
+UFSCPA-GesSau;3;Bioética;Biomedical engineering
+UFSCPA-GesSau;3;Biossegurança;Biomedical engineering
+UFSCPA-GesSau;3;Gestão de Pessoas I;Elective/Other courses
+UFSCPA-GesSau;3;História das Ciências da Saúde;Biomedical engineering
+UFSCPA-GesSau;3;Informática Aplicada à Gestão em Saúde;Computing/Informatics
+UFSCPA-GesSau;3;Marketing em Saúde I;Elective/Other courses
+UFSCPA-GesSau;3;Vigilância em Saúde;Biomedical engineering
+UFSCPA-GesSau;3;Vivência na Gerência dos Serviços de Saúde I;Biomedical engineering
+UFSCPA-GesSau;3;Tutoria 3;Elective/Other courses
+UFSCPA-GesSau;4;Bioestatística;Formal/Engineering sciences
+UFSCPA-GesSau;4;Epidemiologia;Biomedical engineering
+UFSCPA-GesSau;4;Gestão de Operações I;Formal/Engineering sciences
+UFSCPA-GesSau;4;Marketing em Saúde II;Elective/Other courses
+UFSCPA-GesSau;4;Metodologia Científica;Elective/Other courses
+UFSCPA-GesSau;4;Políticas Públicas de Saúde;Biomedical engineering
+UFSCPA-GesSau;4;Redação Acadêmica;Languages
+UFSCPA-GesSau;4;Vivência na Gerência dos Serviços de Saúde II;Biomedical engineering
+UFSCPA-GesSau;4;Tutoria 4;Elective/Other courses
+UFSCPA-GesSau;5;Comunicação nas Organizações;Social sciences and humanities
+UFSCPA-GesSau;5;Ferramentas para Gestão em Saúde na APS;Biomedical engineering
+UFSCPA-GesSau;5;Gestão de Operações II;Formal/Engineering sciences
+UFSCPA-GesSau;5;Gestão de Pessoas II;Social sciences and humanities
+UFSCPA-GesSau;5;Gestão Financeira e Orçamentária;Formal/Engineering sciences
+UFSCPA-GesSau;5;Qualidade e Acreditação em Saúde;Biomedical engineering
+UFSCPA-GesSau;5;Relações étnico-raciais;Social sciences and humanities
+UFSCPA-GesSau;5;TCC I;Elective/Other courses
+UFSCPA-GesSau;5;Tutoria 5;Elective/Other courses
+UFSCPA-GesSau;6;Direito Sanitário;Biomedical engineering
+UFSCPA-GesSau;6;Economia da Saúde;Biomedical engineering
+UFSCPA-GesSau;6;Empreendedorismo em Saúde;Biomedical engineering
+UFSCPA-GesSau;6;Filosofia da Ciência;Elective/Other courses
+UFSCPA-GesSau;6;Negociação e Gestão de Conflitos;Elective/Other courses
+UFSCPA-GesSau;6;Propriedade Intelectual;Elective/Other courses
+UFSCPA-GesSau;6;TCC II;Elective/Other courses
+UFSCPA-GesSau;6;Tomada de Decisão Gerencial;Elective/Other courses
+UFSCPA-GesSau;6;Tutoria 6;Elective/Other courses
+UFSCPA-GesSau;7;Avaliação de Tecnologias em Saúde;Biomedical engineering
+UFSCPA-GesSau;7;Cooperativismo em Saúde;Biomedical engineering
+UFSCPA-GesSau;7;Finanças Públicas;Formal/Engineering sciences
+UFSCPA-GesSau;7;Gerenciamento de Resíduos dos Serviços em Saúde;Biomedical engineering
+UFSCPA-GesSau;7;Gestão de Projetos;Elective/Other courses
+UFSCPA-GesSau;7;Inovação em Saúde;Biomedical engineering
+UFSCPA-GesSau;7;Seminário Integrador de Gestão na Saúde;Biomedical engineering
+UFSCPA-GesSau;7;TCC III;Elective/Other courses
+UFSCPA-GesSau;7;Tutoria 7;Elective/Other courses
+UFSCPA-GesSau;8;TCC IV;Elective/Other courses
+UFSCPA-GesSau;8;Estágio Curricular I;Elective/Other courses
+UFSCPA-GesSau;8;Tutoria 8;Elective/Other courses
+UFSCPA-GesSau;9;Estagio Curricular II;Elective/Other courses

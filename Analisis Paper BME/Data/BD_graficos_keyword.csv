@@ -1,0 +1,1266 @@
+"","keyword","Año","Universidad","area","frec_universidad","frec_biomedica"
+"1","3d printers",2021,"UV","Biomechanics",2,6
+"2","3d printers",2021,"UV","Biomechanics",2,6
+"3","3d printers",2019,"UdeC","Biomechanics",1,10
+"4","3d printers",2022,"UV","Biomechanics",3,8
+"5","3d printing",2022,"UV","Biomechanics",3,8
+"6","4d flow",2022,"UV","Medical Imaging",91,106
+"7","4d flow",2022,"UV","Medical Imaging",91,106
+"8","4d flow magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"9","accelerometer sensor",2017,"UV","Biomechanics",9,11
+"10","accelerometry",2020,"UdeC","Biomechanics",1,3
+"11","accelerometry",2019,"UV","Biomechanics",9,10
+"12","accelerometry",2019,"UV","Biomechanics",9,10
+"13","accelerometry",2019,"UV","Biomechanics",9,10
+"14","accelerometry",2019,"UV","Biomechanics",9,10
+"15","accelerometry",2019,"UV","Biomechanics",9,10
+"16","accelerometry",2019,"UV","Biomechanics",9,10
+"17","amino acid receptor blocking agent",2017,"UV","Bioinformatics/Genetic engineering",1,1
+"18","angiography",2021,"UV","Medical Imaging",45,62
+"19","anthropometry",2010,"UV","Biomechanics",6,6
+"20","anthropometry",2010,"UV","Biomechanics",6,6
+"21","anthropometry",2020,"USACH","Biomechanics",2,3
+"22","anthropometry",2022,"USACH","Biomechanics",5,8
+"23","aortic hemodynamics",2022,"UV","Biofluids",36,50
+"24","artificial heart",2010,"UV","Bioinstrumentation/Biomedical electronics",5,6
+"25","autoregulation",2022,"USACH","Systems Physiology",15,18
+"26","autoregulation",2022,"USACH","Systems Physiology",15,18
+"27","autoregulation",2022,"USACH","Systems Physiology",15,18
+"28","autoregulation",2022,"USACH","Systems Physiology",15,18
+"29","autoregulation",2020,"USACH","Systems Physiology",4,27
+"30","autoregulation",2022,"USACH","Systems Physiology",15,18
+"31","autoregulation",2022,"USACH","Systems Physiology",15,18
+"32","axial flux machines",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"33","axial flux machines",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"34","axial flux machines",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"35","axial flux machines",2009,"UdeC","Bioinstrumentation/Biomedical electronics",2,2
+"36","axial flux machines",2008,"UdeC","Bioinstrumentation/Biomedical electronics",4,5
+"37","axial flux machines",2008,"UdeC","Bioinstrumentation/Biomedical electronics",4,5
+"38","axial flux machines",2017,"UdeC","Bioinstrumentation/Biomedical electronics",9,17
+"39","axial flux machines",2010,"UdeC","Bioinstrumentation/Biomedical electronics",1,6
+"40","axial flux machines",2014,"UdeC","Bioinstrumentation/Biomedical electronics",7,7
+"41","axial flux machines",2008,"UdeC","Bioinstrumentation/Biomedical electronics",4,5
+"42","ballistocardiography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"43","ballistocardiography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"44","ballistocardiography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"45","ballistocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"46","ballistocardiography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"47","ballistocardiography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"48","ballistocardiography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"49","ballistocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"50","ballistocardiography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"51","ballistocardiography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"52","biochemical engineering",2017,"UV","Biomaterials",14,14
+"53","biochemistry",2019,"UV","Biomaterials",3,3
+"54","biochemistry",2018,"UV","Biomaterials",3,3
+"55","bioimpedance measurement",2019,"UdeC","Bioinstrumentation/Biomedical electronics",2,23
+"56","bioimpedance measurement",2019,"UdeC","Bioinstrumentation/Biomedical electronics",2,23
+"57","bioinformatics",2021,"UdeC","Bioinformatics/Genetic engineering",1,14
+"58","bioinformatics",2020,"UdeC","Bioinformatics/Genetic engineering",1,10
+"59","bioinformatics",2021,"USACH","Bioinformatics/Genetic engineering",9,14
+"60","bioinformatics",2022,"USACH","Bioinformatics/Genetic engineering",6,11
+"61","bioinformatics",2019,"UdeC","Bioinformatics/Genetic engineering",3,3
+"62","bioinformatics",2019,"UdeC","Bioinformatics/Genetic engineering",3,3
+"63","bioinformatics",2014,"UV","Bioinformatics/Genetic engineering",1,1
+"64","bioinformatics",2021,"USACH","Bioinformatics/Genetic engineering",9,14
+"65","bioinformatics",2013,"UdeC","Bioinformatics/Genetic engineering",1,1
+"66","bioinformatics",2020,"USACH","Bioinformatics/Genetic engineering",8,10
+"67","biological evolution",2022,"USACH","Bioinformatics/Genetic engineering",6,11
+"68","biological evolution",2020,"USACH","Bioinformatics/Genetic engineering",8,10
+"69","biological evolution",2021,"USACH","Bioinformatics/Genetic engineering",9,14
+"70","biological marker",2022,"UV","Bioinformatics/Genetic engineering",5,11
+"71","biological marker",2022,"UV","Bioinformatics/Genetic engineering",5,11
+"72","biological marker",2022,"UV","Bioinformatics/Genetic engineering",5,11
+"73","biological marker",2022,"UV","Bioinformatics/Genetic engineering",5,11
+"74","biological materials",2022,"UV","Biomaterials",1,3
+"75","biological model",2015,"UdeC","Systems Physiology",3,5
+"76","biological model",2017,"UV","Systems Physiology",4,10
+"77","biological model",2016,"UV","Systems Physiology",4,29
+"78","biological model",2020,"USACH","Systems Physiology",4,27
+"79","biomechanical phenomena",2021,"USACH","Biomechanics",2,6
+"80","biomechanical phenomena",2010,"UV","Biomechanics",6,6
+"81","biomechanical phenomena",2022,"USACH","Biomechanics",5,8
+"82","biomechanics",2010,"UV","Biomechanics",6,6
+"83","biomechanics",2021,"USACH","Biomechanics",2,6
+"84","biomechanics",2022,"USACH","Biomechanics",5,8
+"85","biomechanics",2020,"USACH","Biomechanics",2,3
+"86","biomechanics",2022,"USACH","Biomechanics",5,8
+"87","biomechanics",2022,"USACH","Biomechanics",5,8
+"88","biomechanics",2019,"UV","Biomechanics",9,10
+"89","biomechanics",2022,"UV","Biomechanics",3,8
+"90","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"91","biomedical engineering",2014,"UdeC","Biomedical engineering",2,4
+"92","biomedical engineering",2013,"UV","Biomedical engineering",2,2
+"93","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"94","biomedical engineering",2014,"UdeC","Biomedical engineering",2,4
+"95","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"96","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"97","biomedical engineering",2015,"UV","Biomedical engineering",2,2
+"98","biomedical engineering",2014,"UV","Biomedical engineering",2,4
+"99","biomedical engineering",2013,"UV","Biomedical engineering",2,2
+"100","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"101","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"102","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"103","biomedical engineering",2010,"UV","Biomedical engineering",1,1
+"104","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"105","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"106","biomedical engineering",2008,"UV","Biomedical engineering",1,1
+"107","biomedical engineering",2015,"UV","Biomedical engineering",2,2
+"108","biomedical engineering",2014,"UV","Biomedical engineering",2,4
+"109","biomedical engineering",2017,"UV","Biomedical engineering",10,10
+"110","biomedical equipment",2013,"UV","Bioinstrumentation/Biomedical electronics",6,35
+"111","biomedical equipment",2010,"UV","Bioinstrumentation/Biomedical electronics",5,6
+"112","biomedical equipment",2017,"UV","Bioinstrumentation/Biomedical electronics",8,17
+"113","biomedical equipment",2013,"UV","Bioinstrumentation/Biomedical electronics",6,35
+"114","biomedical implants",2015,"UdeC","Rehabilitation/Orthopaedic Bioengineering",1,1
+"115","biomedical implants",2012,"UdeC","Rehabilitation/Orthopaedic Bioengineering",1,1
+"116","biomedical informatics",2020,"UdeC","Medical Informatics",3,6
+"117","biomedical signal",2021,"USACH","Systems Physiology",13,14
+"118","biomedical signal",2018,"UV","Systems Physiology",12,12
+"119","biomedical signal",2018,"UV","Systems Physiology",12,12
+"120","biomedical signal",2019,"UdeC","Systems Physiology",4,24
+"121","biomedical signal",2018,"UV","Systems Physiology",12,12
+"122","biomedical signal",2020,"UV","Systems Physiology",14,27
+"123","biomedical signal",2021,"USACH","Systems Physiology",13,14
+"124","biomedical signal processing",2020,"UV","Systems Physiology",14,27
+"125","biomedical signal processing",2021,"USACH","Systems Physiology",13,14
+"126","biomedical signal processing",2019,"UdeC","Systems Physiology",4,24
+"127","biomedical technologies",2010,"UV","Bioinstrumentation/Biomedical electronics",5,6
+"128","biometric fusion",2009,"UV","Biomechatronics",2,2
+"129","biometric recognition",2012,"UV","Biomechatronics",2,2
+"130","biometrics",2012,"UV","Biomechatronics",2,2
+"131","biometrics",2009,"UV","Biomechatronics",2,2
+"132","biomimetics",2017,"UV","Biomaterials",14,14
+"133","biomimetics",2017,"UV","Biomaterials",14,14
+"134","biomimetics",2017,"UV","Biomaterials",14,14
+"135","biomimetics",2017,"UV","Biomaterials",14,14
+"136","biomimetics",2017,"UV","Biomaterials",14,14
+"137","biomineralization",2022,"USACH","Biomaterials",2,3
+"138","biomineralization",2018,"UV","Biomaterials",3,3
+"139","biomineralization",2019,"UV","Biomaterials",3,3
+"140","biomolecules",2021,"USACH","Biomaterials",2,2
+"141","biophysics",2013,"UV","Biomaterials",2,2
+"142","biophysics",2013,"UV","Biomechanics",2,2
+"143","biophysics",2017,"UV","Biomaterials",14,14
+"144","biophysics",2017,"UV","Biomechanics",9,11
+"145","biophysics",2014,"UV","Biomaterials",2,2
+"146","biophysics",2014,"UV","Biomechanics",2,4
+"147","biophysics",2017,"UV","Biomaterials",14,14
+"148","biophysics",2017,"UV","Biomechanics",9,11
+"149","biophysics",2013,"UV","Biomaterials",2,2
+"150","biophysics",2013,"UV","Biomechanics",2,2
+"151","biophysics",2014,"UV","Biomaterials",2,2
+"152","biophysics",2014,"UV","Biomechanics",2,4
+"153","biophysics",2017,"UV","Biomaterials",14,14
+"154","biophysics",2017,"UV","Biomechanics",9,11
+"155","biophysics",2017,"UV","Biomaterials",14,14
+"156","biophysics",2017,"UV","Biomechanics",9,11
+"157","biophysics",2017,"UV","Biomaterials",14,14
+"158","biophysics",2017,"UV","Biomechanics",9,11
+"159","biophysics",2017,"UV","Biomaterials",14,14
+"160","biophysics",2017,"UV","Biomechanics",9,11
+"161","biophysics",2017,"UV","Biomaterials",14,14
+"162","biophysics",2017,"UV","Biomechanics",9,11
+"163","biophysics",2017,"UV","Biomaterials",14,14
+"164","biophysics",2017,"UV","Biomechanics",9,11
+"165","biopolymers",2022,"USACH","Biomaterials",2,3
+"166","biopolymers",2021,"USACH","Biomaterials",2,2
+"167","biosensors",2019,"UV","Biomechanics",9,10
+"168","blood analysis",2011,"UV","Systems Physiology",3,3
+"169","blood analysis",2011,"UV","Systems Physiology",3,3
+"170","blood flow",2022,"USACH","Biofluids",14,50
+"171","blood flow",2021,"USACH","Biofluids",16,26
+"172","blood flow",2021,"USACH","Biofluids",16,26
+"173","blood flow",2022,"UV","Biofluids",36,50
+"174","blood flow",2022,"UV","Biofluids",36,50
+"175","blood flow",2022,"USACH","Biofluids",14,50
+"176","blood flow",2022,"UV","Biofluids",36,50
+"177","blood flow",2022,"UV","Biofluids",36,50
+"178","blood flow",2021,"USACH","Biofluids",16,26
+"179","blood flow",2021,"USACH","Biofluids",16,26
+"180","blood flow",2020,"USACH","Biofluids",5,9
+"181","blood flow",2022,"USACH","Biofluids",14,50
+"182","blood flow",2020,"USACH","Biofluids",5,9
+"183","blood flow",2020,"USACH","Biofluids",5,9
+"184","blood flow",2021,"UV","Biofluids",10,26
+"185","blood flow",2022,"USACH","Biofluids",14,50
+"186","blood flow",2021,"UV","Biofluids",10,26
+"187","blood flow",2022,"USACH","Biofluids",14,50
+"188","blood flow",2022,"UV","Biofluids",36,50
+"189","blood flow",2015,"UV","Biofluids",1,1
+"190","blood flow",2022,"UV","Biofluids",36,50
+"191","blood flow",2022,"UV","Biofluids",36,50
+"192","blood flow",2022,"UV","Biofluids",36,50
+"193","blood flow",2022,"USACH","Biofluids",14,50
+"194","blood flow",2021,"USACH","Biofluids",16,26
+"195","brain computer interface",2013,"UV","Bioinstrumentation/Biomedical electronics",6,35
+"196","brain computer interface",2013,"UV","Bioinstrumentation/Biomedical electronics",6,35
+"197","brain electrophysiology",2019,"UV","Systems Physiology",20,24
+"198","brain electrophysiology",2019,"UV","Systems Physiology",20,24
+"199","breast images",2019,"UV","Medical Imaging",48,70
+"200","breathing mechanics",2019,"UV","Biomechanics",9,10
+"201","breathing mechanics",2010,"UV","Biomechanics",6,6
+"202","calcification biochemistry",2018,"UV","Biomaterials",3,3
+"203","calcification biochemistry",2019,"UV","Biomaterials",3,3
+"204","cardiovascular magnetic resonance",2022,"UV","Medical Imaging",91,106
+"205","cardiovascular magnetic resonance",2022,"UV","Medical Imaging",91,106
+"206","cardiovascular magnetic resonance",2021,"UV","Medical Imaging",45,62
+"207","cardiovascular magnetic resonance",2022,"UV","Medical Imaging",91,106
+"208","cardiovascular magnetic resonance",2021,"UV","Medical Imaging",45,62
+"209","cardiovascular magnetic resonance",2022,"UV","Medical Imaging",91,106
+"210","cell engineering",2022,"UV","Cellular and tissue engineering",2,2
+"211","cell interaction",2004,"UV","Systems Physiology",1,1
+"212","cerebral autoregulation",2022,"USACH","Systems Physiology",15,18
+"213","cerebral autoregulation",2022,"USACH","Systems Physiology",15,18
+"214","cerebral autoregulation",2022,"USACH","Systems Physiology",15,18
+"215","cerebral autoregulation",2022,"USACH","Systems Physiology",15,18
+"216","cerebral haemodynamics",2021,"USACH","Systems Physiology",13,14
+"217","cerebral haemodynamics",2021,"USACH","Systems Physiology",13,14
+"218","cerebral hemodynamics",2021,"USACH","Systems Physiology",13,14
+"219","clinical engineering",2017,"UV","Clinical engineering",3,5
+"220","clinical management",2020,"USACH","Clinical engineering",3,5
+"221","clinical management",2020,"USACH","Clinical engineering",3,5
+"222","computational biology",2016,"UV","Bioinformatics/Genetic engineering",1,1
+"223","computational biology",2020,"USACH","Bioinformatics/Genetic engineering",8,10
+"224","computational biology",2020,"UV","Bioinformatics/Genetic engineering",1,10
+"225","computational neuroscience",2017,"UV","Neural Engineering",3,3
+"226","computational neuroscience",2017,"UV","Neural Engineering",3,3
+"227","computational neuroscience",2017,"UV","Neural Engineering",3,3
+"228","computerized tomography",2020,"UV","Medical Imaging",58,65
+"229","computerized tomography",2020,"UV","Medical Imaging",58,65
+"230","computerized tomography",2008,"UdeC","Medical Imaging",9,9
+"231","computerized tomography",2020,"UV","Medical Imaging",58,65
+"232","condition monitoring",2021,"UdeC","Bioinstrumentation/Biomedical electronics",1,11
+"233","condition monitoring",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"234","condition monitoring",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"235","condition monitoring",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"236","condition monitoring",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"237","condition monitoring",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"238","condition monitoring",2017,"UdeC","Bioinstrumentation/Biomedical electronics",9,17
+"239","condition monitoring",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"240","condition monitoring",2017,"UdeC","Bioinstrumentation/Biomedical electronics",9,17
+"241","condition monitoring",2017,"UdeC","Bioinstrumentation/Biomedical electronics",9,17
+"242","condition monitoring",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"243","condition monitoring",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"244","condition monitoring",2017,"UdeC","Bioinstrumentation/Biomedical electronics",9,17
+"245","condition monitoring",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"246","condition monitoring",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"247","condition monitoring",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"248","condition monitoring",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"249","diagnostic imaging",2019,"UV","Medical Imaging",48,70
+"250","diagnostic imaging",2016,"UdeC","Medical Imaging",29,45
+"251","diagnostic imaging",2021,"UdeC","Medical Imaging",17,62
+"252","diagnostic imaging",2019,"UdeC","Medical Imaging",22,70
+"253","diagnostic imaging",2022,"UdeC","Medical Imaging",15,106
+"254","diagnostic imaging",2020,"UV","Medical Imaging",58,65
+"255","diagnostic imaging",2017,"UdeC","Medical Imaging",21,30
+"256","diagnostic imaging",2021,"UV","Medical Imaging",45,62
+"257","diagnostic imaging",2022,"UV","Medical Imaging",91,106
+"258","diagnostic imaging",2019,"UV","Medical Imaging",48,70
+"259","diagnostic imaging",2020,"UV","Medical Imaging",58,65
+"260","diagnostic imaging",2017,"UdeC","Medical Imaging",21,30
+"261","diagnostic imaging",2022,"UdeC","Medical Imaging",15,106
+"262","diagnostic imaging",2022,"UdeC","Medical Imaging",15,106
+"263","diagnostic imaging",2021,"UV","Medical Imaging",45,62
+"264","diagnostic imaging",2020,"UdeC","Medical Imaging",7,65
+"265","diagnostic imaging",2017,"UV","Medical Imaging",9,30
+"266","diagnostic imaging",2022,"UV","Medical Imaging",91,106
+"267","diagnostic imaging",2022,"UV","Medical Imaging",91,106
+"268","diagnostic imaging",2021,"UdeC","Medical Imaging",17,62
+"269","diagnostic imaging",2016,"UdeC","Medical Imaging",29,45
+"270","diagnostic imaging",2022,"UV","Medical Imaging",91,106
+"271","diagnostic imaging",2020,"UV","Medical Imaging",58,65
+"272","diagnostic imaging",2019,"UV","Medical Imaging",48,70
+"273","diagnostic imaging",2022,"UV","Medical Imaging",91,106
+"274","diagnostic imaging",2019,"UV","Medical Imaging",48,70
+"275","diagnostic imaging",2021,"UdeC","Medical Imaging",17,62
+"276","diagnostic imaging",2021,"UdeC","Medical Imaging",17,62
+"277","diagnostic imaging",2019,"UdeC","Medical Imaging",22,70
+"278","diagnostic imaging",2022,"UdeC","Medical Imaging",15,106
+"279","diagnostic imaging",2022,"UdeC","Medical Imaging",15,106
+"280","diagnostic imaging",2022,"UV","Medical Imaging",91,106
+"281","diagnostic imaging",2021,"UdeC","Medical Imaging",17,62
+"282","diagnostic imaging",2016,"UdeC","Medical Imaging",29,45
+"283","diagnostic imaging",2020,"UdeC","Medical Imaging",7,65
+"284","diagnostic imaging",2022,"UV","Medical Imaging",91,106
+"285","diagnostic imaging",2020,"UV","Medical Imaging",58,65
+"286","diagnostic radiography",2008,"UdeC","Medical Imaging",9,9
+"287","diffusion magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"288","diffusion magnetic resonance imaging",2017,"UdeC","Medical Imaging",21,30
+"289","diffusion magnetic resonance imaging",2014,"UV","Medical Imaging",3,10
+"290","diffusion magnetic resonance imaging",2019,"UdeC","Medical Imaging",22,70
+"291","diffusion magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"292","diffusion magnetic resonance imaging",2013,"UdeC","Medical Imaging",14,14
+"293","diffusion magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"294","diffusion magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"295","diffusion magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"296","diffusion magnetic resonance imaging",2013,"UdeC","Medical Imaging",14,14
+"297","diffusion magnetic resonance imaging",2017,"UdeC","Medical Imaging",21,30
+"298","diffusion magnetic resonance imaging",2019,"UdeC","Medical Imaging",22,70
+"299","diffusion magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"300","diffusion magnetic resonance imaging",2017,"UdeC","Medical Imaging",21,30
+"301","diffusion magnetic resonance imaging",2018,"UdeC","Medical Imaging",4,7
+"302","diffusion magnetic resonance imaging",2020,"UdeC","Medical Imaging",7,65
+"303","diffusion magnetic resonance imaging",2013,"UdeC","Medical Imaging",14,14
+"304","dynamic cerebral autoregulation",2022,"USACH","Systems Physiology",15,18
+"305","dynamic cerebral autoregulation",2022,"USACH","Systems Physiology",15,18
+"306","ehealth",2016,"UV","Medical Informatics",3,3
+"307","electrical stimulation",2014,"UdeC","Systems Physiology",4,4
+"308","electrical stimulation",2020,"UdeC","Systems Physiology",9,27
+"309","electrical stimulation",2014,"UdeC","Systems Physiology",4,4
+"310","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"311","electrocardiography",2011,"UdeC","Bioinstrumentation/Biomedical electronics",2,2
+"312","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"313","electrocardiography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"314","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"315","electrocardiography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"316","electrocardiography",2017,"UdeC","Bioinstrumentation/Biomedical electronics",9,17
+"317","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"318","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"319","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"320","electrocardiography",2013,"UV","Bioinstrumentation/Biomedical electronics",6,35
+"321","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"322","electrocardiography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"323","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"324","electrocardiography",2017,"UdeC","Bioinstrumentation/Biomedical electronics",9,17
+"325","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"326","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"327","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"328","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"329","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"330","electrocardiography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"331","electrocardiography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"332","electrocardiography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"333","electrocardiography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"334","electrocardiography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"335","electrocardiography",2011,"UdeC","Bioinstrumentation/Biomedical electronics",2,2
+"336","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"337","electrocardiography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"338","electroencephalography",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"339","electroencephalography",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"340","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"341","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"342","electroencephalography",2017,"UV","Bioinstrumentation/Biomedical electronics",8,17
+"343","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"344","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"345","electroencephalography",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"346","electroencephalography",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"347","electroencephalography",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"348","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"349","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"350","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"351","electroencephalography",2017,"UV","Bioinstrumentation/Biomedical electronics",8,17
+"352","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"353","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"354","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"355","electroencephalography",2020,"UV","Bioinstrumentation/Biomedical electronics",8,11
+"356","electroencephalography",2020,"UV","Bioinstrumentation/Biomedical electronics",8,11
+"357","electroencephalography",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"358","electroencephalography",2020,"UV","Bioinstrumentation/Biomedical electronics",8,11
+"359","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"360","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"361","electroencephalography",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"362","electroencephalography",2022,"UV","Bioinstrumentation/Biomedical electronics",2,2
+"363","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"364","electroencephalography",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"365","electroencephalography",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"366","electromyography",2021,"UV","Bioinstrumentation/Biomedical electronics",9,11
+"367","electromyography",2021,"UV","Bioinstrumentation/Biomedical electronics",9,11
+"368","electromyography",2021,"UV","Bioinstrumentation/Biomedical electronics",9,11
+"369","electromyography",2021,"UV","Bioinstrumentation/Biomedical electronics",9,11
+"370","electromyography",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"371","electromyography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"372","electromyography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"373","electromyography",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"374","electromyography",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"375","electromyography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"376","electromyography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"377","electromyography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"378","electromyography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"379","electromyography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"380","electromyography",2021,"UV","Bioinstrumentation/Biomedical electronics",9,11
+"381","electromyography",2021,"UV","Bioinstrumentation/Biomedical electronics",9,11
+"382","electromyography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"383","electromyography",2021,"UV","Bioinstrumentation/Biomedical electronics",9,11
+"384","electromyography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"385","electromyography",2018,"UdeC","Bioinstrumentation/Biomedical electronics",11,23
+"386","electromyography",2016,"UdeC","Bioinstrumentation/Biomedical electronics",20,31
+"387","electromyography",2021,"UV","Bioinstrumentation/Biomedical electronics",9,11
+"388","electromyography",2021,"UV","Bioinstrumentation/Biomedical electronics",9,11
+"389","electromyography",2022,"UV","Bioinstrumentation/Biomedical electronics",2,2
+"390","electrooculography",2014,"UdeC","Bioinstrumentation/Biomedical electronics",7,7
+"391","electrooculography",2014,"UdeC","Bioinstrumentation/Biomedical electronics",7,7
+"392","electrooculography",2014,"UdeC","Bioinstrumentation/Biomedical electronics",7,7
+"393","electrooculography",2014,"UdeC","Bioinstrumentation/Biomedical electronics",7,7
+"394","electrophysiology",2019,"UV","Systems Physiology",20,24
+"395","electrophysiology",2001,"UV","Systems Physiology",1,1
+"396","electrophysiology",2020,"UV","Systems Physiology",14,27
+"397","electrophysiology",2019,"UV","Systems Physiology",20,24
+"398","electrophysiology",2020,"UV","Systems Physiology",14,27
+"399","electrostimulation",2013,"UdeC","Systems Physiology",13,13
+"400","electrostimulation",2013,"UdeC","Systems Physiology",13,13
+"401","electrostimulation",2020,"UdeC","Systems Physiology",9,27
+"402","electrostimulation",2013,"UdeC","Systems Physiology",13,13
+"403","electrostimulation",2013,"UdeC","Systems Physiology",13,13
+"404","electrostimulation",2022,"UV","Systems Physiology",3,18
+"405","electrostimulation",2018,"UV","Systems Physiology",12,12
+"406","evoked potentials",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"407","evoked potentials",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"408","evoked potentials",2017,"UV","Bioinstrumentation/Biomedical electronics",8,17
+"409","evoked potentials",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"410","evoked potentials",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"411","evoked potentials",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"412","evoked potentials",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"413","evoked potentials",2017,"UV","Bioinstrumentation/Biomedical electronics",8,17
+"414","evoked potentials",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"415","evoked potentials",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"416","evoked potentials",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"417","evolutionary history",2020,"USACH","Bioinformatics/Genetic engineering",8,10
+"418","face recognition",2021,"UdeC","Biomechanics",2,6
+"419","face recognition",2011,"UdeC","Biomechanics",2,2
+"420","face recognition",2018,"UdeC","Biomechanics",2,2
+"421","face recognition",2021,"UdeC","Biomechanics",2,6
+"422","face recognition",2008,"UdeC","Biomechanics",2,2
+"423","face recognition",2017,"UdeC","Biomechanics",2,11
+"424","face recognition",2014,"UdeC","Biomechanics",2,4
+"425","face recognition",2018,"UdeC","Biomechanics",2,2
+"426","face recognition",2011,"UdeC","Biomechanics",2,2
+"427","face recognition",2017,"UdeC","Biomechanics",2,11
+"428","face recognition",2008,"UdeC","Biomechanics",2,2
+"429","face recognition",2014,"UdeC","Biomechanics",2,4
+"430","face recognition",2009,"UdeC","Biomechanics",1,1
+"431","flow velocity",2021,"UV","Biofluids",10,26
+"432","flow velocity",2021,"USACH","Biofluids",16,26
+"433","flow velocity",2022,"USACH","Biofluids",14,50
+"434","flow velocity",2022,"USACH","Biofluids",14,50
+"435","flow velocity",2011,"UV","Biofluids",2,2
+"436","flow velocity",2022,"UV","Biofluids",36,50
+"437","flow velocity",2022,"UV","Biofluids",36,50
+"438","flow velocity",2022,"UV","Biofluids",36,50
+"439","flow velocity",2021,"UV","Biofluids",10,26
+"440","flow velocity",2021,"USACH","Biofluids",16,26
+"441","flow velocity",2020,"USACH","Biofluids",5,9
+"442","flow velocity",2022,"UV","Biofluids",36,50
+"443","flow velocity",2022,"USACH","Biofluids",14,50
+"444","flow velocity",2022,"USACH","Biofluids",14,50
+"445","flow velocity",2020,"USACH","Biofluids",5,9
+"446","fluid mechanics",2018,"UdeC","Biofluids",2,2
+"447","fluid mechanics",2018,"UdeC","Biofluids",2,2
+"448","functional magnetic resonance imaging",2016,"UV","Medical Imaging",16,45
+"449","functional magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"450","functional magnetic resonance imaging",2017,"UV","Medical Imaging",9,30
+"451","functional magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"452","functional magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"453","functional magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"454","functional magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"455","functional magnetic resonance imaging",2016,"UV","Medical Imaging",16,45
+"456","functional magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"457","functional magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"458","functional magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"459","functional magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"460","functional magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"461","functional magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"462","genetic analysis",2022,"USACH","Bioinformatics/Genetic engineering",6,11
+"463","genetic database",2020,"USACH","Bioinformatics/Genetic engineering",8,10
+"464","genetics",2021,"USACH","Bioinformatics/Genetic engineering",9,14
+"465","genetics",2020,"USACH","Bioinformatics/Genetic engineering",8,10
+"466","genetics",2021,"USACH","Bioinformatics/Genetic engineering",9,14
+"467","genome analysis",2019,"UdeC","Bioinformatics/Genetic engineering",3,3
+"468","haemodynamics",2021,"USACH","Biofluids",16,26
+"469","haemodynamics",2022,"UV","Biofluids",36,50
+"470","haemodynamics",2021,"USACH","Biofluids",16,26
+"471","haemodynamics",2022,"UV","Biofluids",36,50
+"472","haemodynamics",2021,"USACH","Biofluids",16,26
+"473","health informations",2021,"USACH","Medical Informatics",1,2
+"474","health informations",2017,"UdeC","Medical Informatics",6,8
+"475","health security",2018,"UV","Clinical engineering",1,1
+"476","healthy organization",2021,"USACH","Clinical engineering",3,3
+"477","heart hemodynamics",2021,"UV","Biofluids",10,26
+"478","heart hemodynamics",2022,"UV","Biofluids",36,50
+"479","hemodynamics",2022,"UV","Biofluids",36,50
+"480","hemodynamics",2022,"UV","Biofluids",36,50
+"481","hemodynamics",2021,"USACH","Biofluids",16,26
+"482","hemodynamics",2020,"UV","Biofluids",4,9
+"483","hemodynamics",2022,"UV","Biofluids",36,50
+"484","hemodynamics",2021,"USACH","Biofluids",16,26
+"485","hemodynamics",2022,"UV","Biofluids",36,50
+"486","hemodynamics",2022,"UV","Biofluids",36,50
+"487","hemodynamics",2021,"UV","Biofluids",10,26
+"488","hemodynamics",2021,"UV","Biofluids",10,26
+"489","hemodynamics",2022,"USACH","Biofluids",14,50
+"490","hemodynamics",2022,"UV","Biofluids",36,50
+"491","hemodynamics",2022,"UV","Biofluids",36,50
+"492","hemodynamics",2022,"UV","Biofluids",36,50
+"493","hemodynamics",2022,"UV","Biofluids",36,50
+"494","hemodynamics",2022,"UV","Biofluids",36,50
+"495","hemodynamics",2022,"UV","Biofluids",36,50
+"496","hemodynamics",2022,"UV","Biofluids",36,50
+"497","hemodynamics",2020,"UV","Biofluids",4,9
+"498","hemodynamics",2022,"USACH","Biofluids",14,50
+"499","hemodynamics",2021,"USACH","Biofluids",16,26
+"500","hemodynamics",2022,"USACH","Biofluids",14,50
+"501","hemodynamics",2022,"UV","Biofluids",36,50
+"502","hemodynamics",2022,"UV","Biofluids",36,50
+"503","hemodynamics",2020,"UV","Biofluids",4,9
+"504","hemodynamics",2022,"UV","Biofluids",36,50
+"505","hemodynamics",2021,"USACH","Biofluids",16,26
+"506","hemodynamics",2021,"UV","Biofluids",10,26
+"507","hemodynamics",2021,"USACH","Biofluids",16,26
+"508","hemodynamics",2020,"UV","Biofluids",4,9
+"509","hemodynamics",2022,"UV","Biofluids",36,50
+"510","hemodynamics",2021,"USACH","Biofluids",16,26
+"511","hemodynamics",2022,"USACH","Biofluids",14,50
+"512","hemodynamics",2022,"UV","Biofluids",36,50
+"513","hemodynamics",2022,"UV","Biofluids",36,50
+"514","hemodynamics",2021,"UV","Biofluids",10,26
+"515","hemodynamics",2022,"UV","Biofluids",36,50
+"516","hemodynamics",2022,"UV","Biofluids",36,50
+"517","hemodynamics",2021,"UV","Biofluids",10,26
+"518","histological analysis",2020,"USACH","Cellular and tissue engineering",1,1
+"519","histological analysis",2022,"UV","Cellular and tissue engineering",2,2
+"520","hl7",2014,"UV","Medical Informatics",1,1
+"521","home care",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"522","home care",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"523","home care",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"524","home care",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"525","home care",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"526","home care",2018,"UV","Bioinstrumentation/Biomedical electronics",12,23
+"527","home care",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"528","hospital data processing",2021,"UV","Medical Informatics",1,2
+"529","hospital information system",2011,"UV","Medical Informatics",1,2
+"530","human computer interaction",2020,"UV","Bioinstrumentation/Biomedical electronics",8,11
+"531","human tissue",2012,"UV","Cellular and tissue engineering",2,3
+"532","human tissue",2012,"UV","Cellular and tissue engineering",2,3
+"533","human tissue",2012,"UdeC","Cellular and tissue engineering",1,3
+"534","human tissue",2017,"UdeC","Cellular and tissue engineering",1,1
+"535","implantable biomedical devices",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"536","implantable biomedical devices",2012,"UdeC","Bioinstrumentation/Biomedical electronics",2,2
+"537","implantable biomedical devices",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"538","implantable biomedical devices",2012,"UdeC","Bioinstrumentation/Biomedical electronics",2,2
+"539","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"540","magnetic resonance",2011,"UdeC","Medical Imaging",7,7
+"541","magnetic resonance",2010,"UV","Medical Imaging",7,7
+"542","magnetic resonance",2010,"UV","Medical Imaging",7,7
+"543","magnetic resonance",2012,"UV","Medical Imaging",12,14
+"544","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"545","magnetic resonance",2019,"UdeC","Medical Imaging",22,70
+"546","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"547","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"548","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"549","magnetic resonance",2013,"UdeC","Medical Imaging",14,14
+"550","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"551","magnetic resonance",2015,"UdeC","Medical Imaging",12,26
+"552","magnetic resonance",2012,"UV","Medical Imaging",12,14
+"553","magnetic resonance",2019,"UdeC","Medical Imaging",22,70
+"554","magnetic resonance",2014,"UdeC","Medical Imaging",7,10
+"555","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"556","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"557","magnetic resonance",2015,"UV","Medical Imaging",14,26
+"558","magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"559","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"560","magnetic resonance",2011,"UdeC","Medical Imaging",7,7
+"561","magnetic resonance",2022,"UdeC","Medical Imaging",15,106
+"562","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"563","magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"564","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"565","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"566","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"567","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"568","magnetic resonance",2012,"UV","Medical Imaging",12,14
+"569","magnetic resonance",2021,"UdeC","Medical Imaging",17,62
+"570","magnetic resonance",2017,"UdeC","Medical Imaging",21,30
+"571","magnetic resonance",2022,"UdeC","Medical Imaging",15,106
+"572","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"573","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"574","magnetic resonance",2021,"UdeC","Medical Imaging",17,62
+"575","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"576","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"577","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"578","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"579","magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"580","magnetic resonance",2016,"UV","Medical Imaging",16,45
+"581","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"582","magnetic resonance",2007,"UV","Medical Imaging",9,9
+"583","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"584","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"585","magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"586","magnetic resonance",2018,"UdeC","Medical Imaging",4,7
+"587","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"588","magnetic resonance",2017,"UV","Medical Imaging",9,30
+"589","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"590","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"591","magnetic resonance",2020,"UdeC","Medical Imaging",7,65
+"592","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"593","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"594","magnetic resonance",2016,"UV","Medical Imaging",16,45
+"595","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"596","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"597","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"598","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"599","magnetic resonance",2013,"UdeC","Medical Imaging",14,14
+"600","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"601","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"602","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"603","magnetic resonance",2016,"UV","Medical Imaging",16,45
+"604","magnetic resonance",2019,"UdeC","Medical Imaging",22,70
+"605","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"606","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"607","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"608","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"609","magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"610","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"611","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"612","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"613","magnetic resonance",2007,"UV","Medical Imaging",9,9
+"614","magnetic resonance",2021,"UdeC","Medical Imaging",17,62
+"615","magnetic resonance",2012,"UV","Medical Imaging",12,14
+"616","magnetic resonance",2016,"UV","Medical Imaging",16,45
+"617","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"618","magnetic resonance",2010,"UV","Medical Imaging",7,7
+"619","magnetic resonance",2017,"UdeC","Medical Imaging",21,30
+"620","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"621","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"622","magnetic resonance",2022,"UdeC","Medical Imaging",15,106
+"623","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"624","magnetic resonance",2016,"UV","Medical Imaging",16,45
+"625","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"626","magnetic resonance",2011,"UdeC","Medical Imaging",7,7
+"627","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"628","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"629","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"630","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"631","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"632","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"633","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"634","magnetic resonance",2021,"UdeC","Medical Imaging",17,62
+"635","magnetic resonance",2016,"UV","Medical Imaging",16,45
+"636","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"637","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"638","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"639","magnetic resonance",2007,"UV","Medical Imaging",9,9
+"640","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"641","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"642","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"643","magnetic resonance",2017,"UdeC","Medical Imaging",21,30
+"644","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"645","magnetic resonance",2022,"UV","Medical Imaging",91,106
+"646","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"647","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"648","magnetic resonance",2017,"UV","Medical Imaging",9,30
+"649","magnetic resonance",2019,"UdeC","Medical Imaging",22,70
+"650","magnetic resonance",2020,"UdeC","Medical Imaging",7,65
+"651","magnetic resonance",2017,"UV","Medical Imaging",9,30
+"652","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"653","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"654","magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"655","magnetic resonance",2019,"UdeC","Medical Imaging",22,70
+"656","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"657","magnetic resonance",2017,"UdeC","Medical Imaging",21,30
+"658","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"659","magnetic resonance",2013,"UdeC","Medical Imaging",14,14
+"660","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"661","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"662","magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"663","magnetic resonance",2019,"UV","Medical Imaging",48,70
+"664","magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"665","magnetic resonance",2020,"UV","Medical Imaging",58,65
+"666","magnetic resonance",2014,"UV","Medical Imaging",3,10
+"667","magnetic resonance",2015,"UV","Medical Imaging",14,26
+"668","magnetic resonance",2021,"UV","Medical Imaging",45,62
+"669","magnetic resonance",2022,"UdeC","Medical Imaging",15,106
+"670","magnetic resonance",2019,"UdeC","Medical Imaging",22,70
+"671","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"672","magnetic resonance imaging",2010,"UV","Medical Imaging",7,7
+"673","magnetic resonance imaging",2021,"UdeC","Medical Imaging",17,62
+"674","magnetic resonance imaging",2016,"UV","Medical Imaging",16,45
+"675","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"676","magnetic resonance imaging",2020,"UdeC","Medical Imaging",7,65
+"677","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"678","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"679","magnetic resonance imaging",2015,"UdeC","Medical Imaging",12,26
+"680","magnetic resonance imaging",2016,"UV","Medical Imaging",16,45
+"681","magnetic resonance imaging",2021,"UdeC","Medical Imaging",17,62
+"682","magnetic resonance imaging",2018,"UdeC","Medical Imaging",4,7
+"683","magnetic resonance imaging",2019,"UdeC","Medical Imaging",22,70
+"684","magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"685","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"686","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"687","magnetic resonance imaging",2010,"UV","Medical Imaging",7,7
+"688","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"689","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"690","magnetic resonance imaging",2007,"UV","Medical Imaging",9,9
+"691","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"692","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"693","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"694","magnetic resonance imaging",2021,"UdeC","Medical Imaging",17,62
+"695","magnetic resonance imaging",2019,"UdeC","Medical Imaging",22,70
+"696","magnetic resonance imaging",2016,"UV","Medical Imaging",16,45
+"697","magnetic resonance imaging",2017,"UdeC","Medical Imaging",21,30
+"698","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"699","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"700","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"701","magnetic resonance imaging",2015,"UV","Medical Imaging",14,26
+"702","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"703","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"704","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"705","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"706","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"707","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"708","magnetic resonance imaging",2007,"UV","Medical Imaging",9,9
+"709","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"710","magnetic resonance imaging",2014,"UV","Medical Imaging",3,10
+"711","magnetic resonance imaging",2016,"UV","Medical Imaging",16,45
+"712","magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"713","magnetic resonance imaging",2022,"UdeC","Medical Imaging",15,106
+"714","magnetic resonance imaging",2013,"UdeC","Medical Imaging",14,14
+"715","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"716","magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"717","magnetic resonance imaging",2021,"UdeC","Medical Imaging",17,62
+"718","magnetic resonance imaging",2014,"UdeC","Medical Imaging",7,10
+"719","magnetic resonance imaging",2011,"UdeC","Medical Imaging",7,7
+"720","magnetic resonance imaging",2015,"UV","Medical Imaging",14,26
+"721","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"722","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"723","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"724","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"725","magnetic resonance imaging",2019,"UdeC","Medical Imaging",22,70
+"726","magnetic resonance imaging",2016,"UV","Medical Imaging",16,45
+"727","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"728","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"729","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"730","magnetic resonance imaging",2012,"UV","Medical Imaging",12,14
+"731","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"732","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"733","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"734","magnetic resonance imaging",2019,"UdeC","Medical Imaging",22,70
+"735","magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"736","magnetic resonance imaging",2017,"UdeC","Medical Imaging",21,30
+"737","magnetic resonance imaging",2012,"UV","Medical Imaging",12,14
+"738","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"739","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"740","magnetic resonance imaging",2012,"UV","Medical Imaging",12,14
+"741","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"742","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"743","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"744","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"745","magnetic resonance imaging",2012,"UV","Medical Imaging",12,14
+"746","magnetic resonance imaging",2017,"UV","Medical Imaging",9,30
+"747","magnetic resonance imaging",2017,"UV","Medical Imaging",9,30
+"748","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"749","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"750","magnetic resonance imaging",2017,"UV","Medical Imaging",9,30
+"751","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"752","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"753","magnetic resonance imaging",2007,"UV","Medical Imaging",9,9
+"754","magnetic resonance imaging",2020,"UdeC","Medical Imaging",7,65
+"755","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"756","magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"757","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"758","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"759","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"760","magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"761","magnetic resonance imaging",2011,"UdeC","Medical Imaging",7,7
+"762","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"763","magnetic resonance imaging",2019,"UdeC","Medical Imaging",22,70
+"764","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"765","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"766","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"767","magnetic resonance imaging",2016,"UV","Medical Imaging",16,45
+"768","magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"769","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"770","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"771","magnetic resonance imaging",2016,"UdeC","Medical Imaging",29,45
+"772","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"773","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"774","magnetic resonance imaging",2019,"UdeC","Medical Imaging",22,70
+"775","magnetic resonance imaging",2022,"UdeC","Medical Imaging",15,106
+"776","magnetic resonance imaging",2017,"UdeC","Medical Imaging",21,30
+"777","magnetic resonance imaging",2013,"UdeC","Medical Imaging",14,14
+"778","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"779","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"780","magnetic resonance imaging",2019,"UV","Medical Imaging",48,70
+"781","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"782","magnetic resonance imaging",2020,"UV","Medical Imaging",58,65
+"783","magnetic resonance imaging",2022,"UdeC","Medical Imaging",15,106
+"784","magnetic resonance imaging",2022,"UdeC","Medical Imaging",15,106
+"785","magnetic resonance imaging",2011,"UdeC","Medical Imaging",7,7
+"786","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"787","magnetic resonance imaging",2013,"UdeC","Medical Imaging",14,14
+"788","magnetic resonance imaging",2021,"UV","Medical Imaging",45,62
+"789","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"790","magnetic resonance imaging",2022,"UV","Medical Imaging",91,106
+"791","mammography",2018,"UV","Medical Imaging",3,7
+"792","mechanical engineering",2010,"UV","Biomechanics",6,6
+"793","mechanical ventilator",2010,"UV","Bioinstrumentation/Biomedical electronics",5,6
+"794","medical computing",2020,"UdeC","Medical Informatics",3,6
+"795","medical computing",2022,"UV","Medical Informatics",4,4
+"796","medical computing",2020,"UV","Medical Informatics",3,6
+"797","medical computing",2022,"UV","Medical Informatics",4,4
+"798","medical computing",2012,"UdeC","Medical Informatics",5,5
+"799","medical computing",2020,"UV","Medical Informatics",3,6
+"800","medical computing",2015,"UV","Medical Informatics",12,13
+"801","medical computing",2017,"UdeC","Medical Informatics",6,8
+"802","medical computing",2015,"UV","Medical Informatics",12,13
+"803","medical computing",2020,"UV","Medical Informatics",3,6
+"804","medical computing",2011,"UdeC","Medical Informatics",1,2
+"805","medical computing",2015,"UdeC","Medical Informatics",1,13
+"806","medical device",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"807","medical devices",2013,"UV","Bioinstrumentation/Biomedical electronics",6,35
+"808","medical equipment",2014,"UdeC","Bioinstrumentation/Biomedical electronics",7,7
+"809","medical equipment",2010,"UV","Bioinstrumentation/Biomedical electronics",5,6
+"810","medical equipment",2014,"UdeC","Bioinstrumentation/Biomedical electronics",7,7
+"811","medical image segmentation",2022,"UV","Medical Imaging",91,106
+"812","medical imaging",2007,"UV","Medical Imaging",9,9
+"813","medical imaging",2010,"UV","Medical Imaging",7,7
+"814","medical imaging",2019,"UV","Medical Imaging",48,70
+"815","medical imaging",2022,"UV","Medical Imaging",91,106
+"816","medical imaging",2019,"UdeC","Medical Imaging",22,70
+"817","medical imaging",2015,"UV","Medical Imaging",14,26
+"818","medical imaging",2007,"UV","Medical Imaging",9,9
+"819","medical imaging",2022,"UV","Medical Imaging",91,106
+"820","medical imaging",2017,"UdeC","Medical Imaging",21,30
+"821","medical imaging",2015,"UdeC","Medical Imaging",12,26
+"822","medical imaging",2019,"UdeC","Medical Imaging",22,70
+"823","medical imaging",2008,"UdeC","Medical Imaging",9,9
+"824","medical imaging",2022,"UV","Medical Imaging",91,106
+"825","medical imaging",2019,"UdeC","Medical Imaging",22,70
+"826","medical imaging",2021,"UdeC","Medical Imaging",17,62
+"827","medical imaging",2012,"UdeC","Medical Imaging",2,14
+"828","medical imaging",2022,"UV","Medical Imaging",91,106
+"829","medical imaging",2007,"UV","Medical Imaging",9,9
+"830","medical imaging",2019,"UV","Medical Imaging",48,70
+"831","medical imaging",2017,"UdeC","Medical Imaging",21,30
+"832","medical imaging",2020,"UV","Medical Imaging",58,65
+"833","medical imaging",2020,"UV","Medical Imaging",58,65
+"834","medical imaging",2015,"UdeC","Medical Imaging",12,26
+"835","medical imaging",2021,"UdeC","Medical Imaging",17,62
+"836","medical imaging",2010,"UV","Medical Imaging",7,7
+"837","medical imaging",2022,"UV","Medical Imaging",91,106
+"838","medical imaging",2020,"UV","Medical Imaging",58,65
+"839","medical imaging",2022,"UV","Medical Imaging",91,106
+"840","medical imaging",2018,"UV","Medical Imaging",3,7
+"841","medical imaging",2022,"UV","Medical Imaging",91,106
+"842","medical imaging",2019,"UdeC","Medical Imaging",22,70
+"843","medical informatics",2015,"UV","Medical Informatics",12,13
+"844","medical informatics",2015,"UV","Medical Informatics",12,13
+"845","medical informatics",2017,"UdeC","Medical Informatics",6,8
+"846","medical informatics",2020,"UdeC","Medical Informatics",3,6
+"847","medical informatics",2017,"UdeC","Medical Informatics",6,8
+"848","medical informatics",2017,"UdeC","Medical Informatics",6,8
+"849","medical informatics",2017,"UdeC","Medical Informatics",6,8
+"850","medical instrumentation",2008,"UV","Bioinstrumentation/Biomedical electronics",1,5
+"851","microarray analysis",2011,"UV","Bioinformatics/Genetic engineering",3,3
+"852","microfluidics",2009,"UV","Biofluids",2,2
+"853","microfluidics",2011,"UV","Biofluids",2,2
+"854","microfluidics",2009,"UV","Biofluids",2,2
+"855","microfluidics",2010,"UV","Biofluids",1,1
+"856","monitoring device",2020,"USACH","Bioinstrumentation/Biomedical electronics",3,11
+"857","monitoring device",2020,"USACH","Bioinstrumentation/Biomedical electronics",3,11
+"858","movement physiology",2020,"UV","Systems Physiology",14,27
+"859","movement physiology",2020,"UV","Systems Physiology",14,27
+"860","movement physiology",2020,"UV","Systems Physiology",14,27
+"861","movement physiology",2019,"UV","Systems Physiology",20,24
+"862","nerve stimulation",2017,"UV","Systems Physiology",4,10
+"863","nerve stimulation",2016,"UdeC","Systems Physiology",25,29
+"864","nerve stimulation",2016,"UdeC","Systems Physiology",25,29
+"865","nerve stimulation",2016,"UdeC","Systems Physiology",25,29
+"866","nerve stimulation",2016,"UdeC","Systems Physiology",25,29
+"867","neural conduction",2004,"UV","Neural Engineering",1,1
+"868","neurobiology",2019,"UdeC","Neural Engineering",2,4
+"869","neuroimaging",2019,"UdeC","Medical Imaging",22,70
+"870","neuroimaging",2020,"UV","Medical Imaging",58,65
+"871","neuroimaging",2015,"UdeC","Medical Imaging",12,26
+"872","neuroimaging",2020,"UV","Medical Imaging",58,65
+"873","neuroimaging",2020,"UV","Medical Imaging",58,65
+"874","neuroimaging",2016,"UdeC","Medical Imaging",29,45
+"875","neuroimaging",2016,"UdeC","Medical Imaging",29,45
+"876","neuroimaging",2017,"UdeC","Medical Imaging",21,30
+"877","neuroimaging",2015,"UdeC","Medical Imaging",12,26
+"878","neuroimaging",2019,"UV","Medical Imaging",48,70
+"879","neuroimaging",2016,"UdeC","Medical Imaging",29,45
+"880","neuroimaging",2018,"UdeC","Medical Imaging",4,7
+"881","neuroimaging",2020,"UV","Medical Imaging",58,65
+"882","neuroimaging",2017,"UdeC","Medical Imaging",21,30
+"883","neuroimaging",2020,"UV","Medical Imaging",58,65
+"884","neuroimaging",2020,"UV","Medical Imaging",58,65
+"885","neuroimaging",2020,"UV","Medical Imaging",58,65
+"886","neuroimaging",2016,"UdeC","Medical Imaging",29,45
+"887","neuroimaging",2019,"UV","Medical Imaging",48,70
+"888","neuroimaging",2019,"UV","Medical Imaging",48,70
+"889","neuroimaging",2019,"UV","Medical Imaging",48,70
+"890","neuroimaging",2020,"UV","Medical Imaging",58,65
+"891","neuroimaging",2019,"UV","Medical Imaging",48,70
+"892","neuroimaging",2015,"UV","Medical Imaging",14,26
+"893","neuroimaging",2021,"UV","Medical Imaging",45,62
+"894","neuromuscular blockade",2020,"USACH","Neural Engineering",2,2
+"895","neuromuscular blockade",2020,"USACH","Neural Engineering",2,2
+"896","neuronal dynamics",2019,"UV","Neural Engineering",2,4
+"897","neuronal dynamics",2019,"UV","Neural Engineering",2,4
+"898","neuropathology",2019,"UdeC","Neural Engineering",2,4
+"899","nuclear magnetic resonance",2016,"UV","Medical Imaging",16,45
+"900","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"901","nuclear magnetic resonance",2019,"UV","Medical Imaging",48,70
+"902","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"903","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"904","nuclear magnetic resonance",2021,"UV","Medical Imaging",45,62
+"905","nuclear magnetic resonance",2019,"UdeC","Medical Imaging",22,70
+"906","nuclear magnetic resonance",2012,"UV","Medical Imaging",12,14
+"907","nuclear magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"908","nuclear magnetic resonance",2021,"UV","Medical Imaging",45,62
+"909","nuclear magnetic resonance",2019,"UV","Medical Imaging",48,70
+"910","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"911","nuclear magnetic resonance",2022,"UdeC","Medical Imaging",15,106
+"912","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"913","nuclear magnetic resonance",2017,"UdeC","Medical Imaging",21,30
+"914","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"915","nuclear magnetic resonance",2012,"UV","Medical Imaging",12,14
+"916","nuclear magnetic resonance",2021,"UV","Medical Imaging",45,62
+"917","nuclear magnetic resonance",2015,"UV","Medical Imaging",14,26
+"918","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"919","nuclear magnetic resonance",2016,"UV","Medical Imaging",16,45
+"920","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"921","nuclear magnetic resonance",2019,"UV","Medical Imaging",48,70
+"922","nuclear magnetic resonance",2021,"UV","Medical Imaging",45,62
+"923","nuclear magnetic resonance",2021,"UV","Medical Imaging",45,62
+"924","nuclear magnetic resonance",2021,"UdeC","Medical Imaging",17,62
+"925","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"926","nuclear magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"927","nuclear magnetic resonance",2016,"UdeC","Medical Imaging",29,45
+"928","nuclear magnetic resonance",2020,"UV","Medical Imaging",58,65
+"929","nuclear magnetic resonance",2022,"UV","Medical Imaging",91,106
+"930","nuclear magnetic resonance",2019,"UV","Medical Imaging",48,70
+"931","nuclear magnetic resonance",2021,"UdeC","Medical Imaging",17,62
+"932","nuclear magnetic resonance",2021,"UV","Medical Imaging",45,62
+"933","nuclear magnetic resonance",2017,"UV","Medical Imaging",9,30
+"934","nuclear magnetic resonance",2011,"UdeC","Medical Imaging",7,7
+"935","nuclear magnetic resonance",2022,"UdeC","Medical Imaging",15,106
+"936","organization and management",2016,"UdeC","Clinical engineering",1,2
+"937","pathophysiology",2013,"UdeC","Systems Physiology",13,13
+"938","pathophysiology",2021,"USACH","Systems Physiology",13,14
+"939","pathophysiology",2013,"UdeC","Systems Physiology",13,13
+"940","pathophysiology",2016,"UV","Systems Physiology",4,29
+"941","pathophysiology",2016,"UdeC","Systems Physiology",25,29
+"942","pathophysiology",2013,"UdeC","Systems Physiology",13,13
+"943","pathophysiology",2018,"UV","Systems Physiology",12,12
+"944","pathophysiology",2016,"UdeC","Systems Physiology",25,29
+"945","pathophysiology",2015,"UV","Systems Physiology",2,5
+"946","pathophysiology",2021,"USACH","Systems Physiology",13,14
+"947","pathophysiology",2021,"USACH","Systems Physiology",13,14
+"948","pathophysiology",2021,"UdeC","Systems Physiology",1,14
+"949","pathophysiology",2021,"USACH","Systems Physiology",13,14
+"950","pathophysiology",2013,"UdeC","Systems Physiology",13,13
+"951","pathophysiology",2013,"UdeC","Systems Physiology",13,13
+"952","pathophysiology",2020,"USACH","Systems Physiology",4,27
+"953","patient monitoring",2021,"USACH","Bioinstrumentation/Biomedical electronics",1,11
+"954","patient monitoring",2017,"UdeC","Bioinstrumentation/Biomedical electronics",9,17
+"955","patient monitoring",2017,"UV","Bioinstrumentation/Biomedical electronics",8,17
+"956","patient monitoring",2017,"UdeC","Bioinstrumentation/Biomedical electronics",9,17
+"957","patient monitoring",2017,"UV","Bioinstrumentation/Biomedical electronics",8,17
+"958","patient monitoring",2009,"UdeC","Bioinstrumentation/Biomedical electronics",2,2
+"959","patient monitoring",2020,"UV","Bioinstrumentation/Biomedical electronics",8,11
+"960","patient monitoring",2008,"UdeC","Bioinstrumentation/Biomedical electronics",4,5
+"961","patient monitoring",2020,"UV","Bioinstrumentation/Biomedical electronics",8,11
+"962","patient monitoring",2020,"USACH","Bioinstrumentation/Biomedical electronics",3,11
+"963","patient rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"964","patient rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"965","patient rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"966","patient rehabilitation",2020,"UdeC","Rehabilitation/Orthopaedic Bioengineering",2,2
+"967","phylogeny",2020,"USACH","Bioinformatics/Genetic engineering",8,10
+"968","phylogeny",2020,"USACH","Bioinformatics/Genetic engineering",8,10
+"969","phylogeny",2022,"USACH","Bioinformatics/Genetic engineering",6,11
+"970","phylogeny",2022,"USACH","Bioinformatics/Genetic engineering",6,11
+"971","physical and rehabilitation medicine",2010,"UV","Rehabilitation/Orthopaedic Bioengineering",5,5
+"972","physiologic",2016,"UdeC","Systems Physiology",25,29
+"973","physiologic",2016,"UdeC","Systems Physiology",25,29
+"974","physiologic",2018,"UV","Systems Physiology",12,12
+"975","physiologic",2020,"UdeC","Systems Physiology",9,27
+"976","physiologic",2018,"UV","Systems Physiology",12,12
+"977","physiologic",2016,"UdeC","Systems Physiology",25,29
+"978","physiologic",2016,"UdeC","Systems Physiology",25,29
+"979","physiologic",2020,"UdeC","Systems Physiology",9,27
+"980","physiologic",2018,"UV","Systems Physiology",12,12
+"981","physiologic",2018,"UV","Systems Physiology",12,12
+"982","physiologic",2016,"UdeC","Systems Physiology",25,29
+"983","physiologic",2016,"UdeC","Systems Physiology",25,29
+"984","physiologic",2020,"UdeC","Systems Physiology",9,27
+"985","physiologic",2016,"UdeC","Systems Physiology",25,29
+"986","physiologic",2016,"UdeC","Systems Physiology",25,29
+"987","physiologic",2020,"UdeC","Systems Physiology",9,27
+"988","physiologic",2020,"UdeC","Systems Physiology",9,27
+"989","physiologic",2020,"UdeC","Systems Physiology",9,27
+"990","physiological",2021,"USACH","Systems Physiology",13,14
+"991","physiological",2009,"UdeC","Systems Physiology",1,1
+"992","physiological",2019,"UV","Systems Physiology",20,24
+"993","physiological",2016,"UdeC","Systems Physiology",25,29
+"994","physiological",2017,"UdeC","Systems Physiology",6,10
+"995","physiological",2017,"UdeC","Systems Physiology",6,10
+"996","physiological",2021,"USACH","Systems Physiology",13,14
+"997","physiological",2017,"UdeC","Systems Physiology",6,10
+"998","physiological",2016,"UdeC","Systems Physiology",25,29
+"999","physiological",2016,"UdeC","Systems Physiology",25,29
+"1000","physiology",2019,"UV","Systems Physiology",20,24
+"1001","physiology",2016,"UdeC","Systems Physiology",25,29
+"1002","physiology",2020,"UV","Systems Physiology",14,27
+"1003","physiology",2020,"UV","Systems Physiology",14,27
+"1004","physiology",2016,"UdeC","Systems Physiology",25,29
+"1005","physiology",2019,"UV","Systems Physiology",20,24
+"1006","physiology",2010,"UV","Systems Physiology",2,2
+"1007","physiology",2019,"UV","Systems Physiology",20,24
+"1008","physiology",2019,"UV","Systems Physiology",20,24
+"1009","physiology",2015,"UdeC","Systems Physiology",3,5
+"1010","physiology",2017,"UdeC","Systems Physiology",6,10
+"1011","physiology",2016,"UV","Systems Physiology",4,29
+"1012","physiology",2020,"UV","Systems Physiology",14,27
+"1013","physiology",2019,"UV","Systems Physiology",20,24
+"1014","physiology",2019,"UV","Systems Physiology",20,24
+"1015","physiology",2016,"UdeC","Systems Physiology",25,29
+"1016","physiology",2016,"UdeC","Systems Physiology",25,29
+"1017","physiology",2022,"USACH","Systems Physiology",15,18
+"1018","physiology",2016,"UdeC","Systems Physiology",25,29
+"1019","physiology",2018,"UV","Systems Physiology",12,12
+"1020","physiology",2019,"UV","Systems Physiology",20,24
+"1021","physiology",2012,"UdeC","Systems Physiology",2,2
+"1022","physiology",2016,"UdeC","Systems Physiology",25,29
+"1023","physiology",2022,"UV","Systems Physiology",3,18
+"1024","physiology",2014,"UdeC","Systems Physiology",4,4
+"1025","physiology",2020,"UV","Systems Physiology",14,27
+"1026","physiology",2022,"USACH","Systems Physiology",15,18
+"1027","physiology",2015,"UdeC","Systems Physiology",3,5
+"1028","physiology",2013,"UdeC","Systems Physiology",13,13
+"1029","physiology",2018,"UV","Systems Physiology",12,12
+"1030","physiology",2018,"UV","Systems Physiology",12,12
+"1031","physiology",2016,"UdeC","Systems Physiology",25,29
+"1032","physiology",2020,"USACH","Systems Physiology",4,27
+"1033","physiology",2015,"UV","Systems Physiology",2,5
+"1034","physiology",2020,"UV","Systems Physiology",14,27
+"1035","physiology",2020,"UdeC","Systems Physiology",9,27
+"1036","physiology",2013,"UdeC","Systems Physiology",13,13
+"1037","physiology",2019,"UV","Systems Physiology",20,24
+"1038","physiology",2016,"UV","Systems Physiology",4,29
+"1039","physiology",2019,"UV","Systems Physiology",20,24
+"1040","physiology",2012,"UdeC","Systems Physiology",2,2
+"1041","physiology",2019,"UV","Systems Physiology",20,24
+"1042","physiology",2016,"UdeC","Systems Physiology",25,29
+"1043","physiology",2013,"UdeC","Systems Physiology",13,13
+"1044","physiology",2019,"UdeC","Systems Physiology",4,24
+"1045","physiology",2021,"USACH","Systems Physiology",13,14
+"1046","physiology",2022,"USACH","Systems Physiology",15,18
+"1047","physiology",2019,"UdeC","Systems Physiology",4,24
+"1048","physiology",2013,"UdeC","Systems Physiology",13,13
+"1049","physiology",2017,"UdeC","Systems Physiology",6,10
+"1050","physiology",2019,"UV","Systems Physiology",20,24
+"1051","physiology",2022,"UV","Systems Physiology",3,18
+"1052","physiology",2019,"UV","Systems Physiology",20,24
+"1053","physiology",2019,"UV","Systems Physiology",20,24
+"1054","physiology",2014,"UdeC","Systems Physiology",4,4
+"1055","physiology",2017,"UV","Systems Physiology",4,10
+"1056","physiology",2019,"UV","Systems Physiology",20,24
+"1057","physiology",2017,"UV","Systems Physiology",4,10
+"1058","physiology",2017,"UdeC","Systems Physiology",6,10
+"1059","physiology",2020,"UV","Systems Physiology",14,27
+"1060","physiology",2020,"UV","Systems Physiology",14,27
+"1061","polysomnography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"1062","polysomnography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"1063","polysomnography",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"1064","polysomnography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"1065","polysomnography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"1066","polysomnography",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"1067","polysomnography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"1068","polysomnography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"1069","polysomnography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"1070","polysomnography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"1071","polysomnography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"1072","polysomnography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"1073","polysomnography",2015,"UdeC","Bioinstrumentation/Biomedical electronics",16,16
+"1074","polysomnography",2013,"UdeC","Bioinstrumentation/Biomedical electronics",29,35
+"1075","positron emission tomography",2015,"UV","Medical Imaging",14,26
+"1076","positron emission tomography",2015,"UV","Medical Imaging",14,26
+"1077","positron emission tomography",2022,"UV","Medical Imaging",91,106
+"1078","preventive maintenance",2017,"UV","Clinical engineering",3,5
+"1079","primary care",2016,"UV","Clinical engineering",1,2
+"1080","prostheses and orthoses",2017,"UdeC","Bionics",2,2
+"1081","prostheses and orthoses",2017,"UdeC","Bionics",2,2
+"1082","protein",2022,"USACH","Bioinformatics/Genetic engineering",6,11
+"1083","protein",2011,"UV","Bioinformatics/Genetic engineering",3,3
+"1084","protein",2015,"UV","Bioinformatics/Genetic engineering",1,1
+"1085","protein",2008,"UV","Bioinformatics/Genetic engineering",2,2
+"1086","protein",2021,"UV","Bioinformatics/Genetic engineering",4,14
+"1087","protein",2021,"USACH","Bioinformatics/Genetic engineering",9,14
+"1088","protein",2021,"USACH","Bioinformatics/Genetic engineering",9,14
+"1089","protein",2008,"UV","Bioinformatics/Genetic engineering",2,2
+"1090","protein",2022,"UV","Bioinformatics/Genetic engineering",5,11
+"1091","protein",2021,"UV","Bioinformatics/Genetic engineering",4,14
+"1092","proteins",2010,"UV","Bioinformatics/Genetic engineering",3,3
+"1093","proteins",2010,"UV","Bioinformatics/Genetic engineering",3,3
+"1094","proteins",2021,"UV","Bioinformatics/Genetic engineering",4,14
+"1095","proteins",2010,"UV","Bioinformatics/Genetic engineering",3,3
+"1096","proteins",2021,"UV","Bioinformatics/Genetic engineering",4,14
+"1097","proteins",2021,"USACH","Bioinformatics/Genetic engineering",9,14
+"1098","psychophysiology",2010,"UV","Systems Physiology",2,2
+"1099","psychophysiology",2011,"UV","Systems Physiology",3,3
+"1100","public administration",2017,"UdeC","Clinical engineering",2,5
+"1101","public administration",2020,"UV","Clinical engineering",2,5
+"1102","public health systems",2015,"UV","Clinical engineering",3,3
+"1103","public health systems",2015,"UV","Clinical engineering",3,3
+"1104","public healthcares",2021,"USACH","Clinical engineering",3,3
+"1105","public hospital",2013,"UdeC","Clinical engineering",1,1
+"1106","public hospital",2011,"UV","Clinical engineering",1,1
+"1107","public management",2020,"UV","Clinical engineering",2,5
+"1108","radiation protection",2015,"UV","Clinical engineering",3,3
+"1109","radiographic images",2015,"UV","Medical Imaging",14,26
+"1110","radiography",2019,"UV","Medical Imaging",48,70
+"1111","radiography",2008,"UdeC","Medical Imaging",9,9
+"1112","radiography",2015,"UV","Medical Imaging",14,26
+"1113","radiography",2013,"UdeC","Medical Imaging",14,14
+"1114","radiography",2013,"UdeC","Medical Imaging",14,14
+"1115","radiography",2008,"UdeC","Medical Imaging",9,9
+"1116","radiography",2013,"UdeC","Medical Imaging",14,14
+"1117","regenerative medicine",2022,"UV","Rehabilitation/Orthopaedic Bioengineering",1,1
+"1118","rehabilitation",2010,"UV","Rehabilitation/Orthopaedic Bioengineering",5,5
+"1119","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1120","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1121","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1122","rehabilitation",2010,"UV","Rehabilitation/Orthopaedic Bioengineering",5,5
+"1123","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1124","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1125","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1126","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1127","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1128","rehabilitation",2020,"UdeC","Rehabilitation/Orthopaedic Bioengineering",2,2
+"1129","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1130","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1131","rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1132","rehabilitation devices",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1133","rehabilitation devices",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1134","rehabilitation medicine",2010,"UV","Rehabilitation/Orthopaedic Bioengineering",5,5
+"1135","rehabilitation medicine",2010,"UV","Rehabilitation/Orthopaedic Bioengineering",5,5
+"1136","rehabilitation technology",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1137","robotic rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1138","robotic rehabilitation",2021,"UV","Rehabilitation/Orthopaedic Bioengineering",19,19
+"1139","robotics",2006,"UdeC","Biomechatronics",2,2
+"1140","robotics",2021,"UV","Biomechatronics",3,3
+"1141","robotics",2020,"UV","Biomechatronics",6,6
+"1142","robotics",2020,"UV","Biomechatronics",6,6
+"1143","robotics",2020,"UV","Biomechatronics",6,6
+"1144","robotics",2021,"UV","Biomechatronics",3,3
+"1145","robotics",2006,"UdeC","Biomechatronics",2,2
+"1146","robotics",2020,"UV","Biomechatronics",6,6
+"1147","robotics",2021,"UV","Biomechatronics",3,3
+"1148","robotics",2020,"UV","Biomechatronics",6,6
+"1149","robotics",2020,"UV","Biomechatronics",6,6
+"1150","safety engineering",2017,"UV","Clinical engineering",3,5
+"1151","safety engineering",2010,"UV","Clinical engineering",1,1
+"1152","safety engineering",2017,"UdeC","Clinical engineering",2,5
+"1153","single cell analysis",2011,"UV","Bioinformatics/Genetic engineering",3,3
+"1154","spirometry",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"1155","spirometry",2019,"UV","Bioinstrumentation/Biomedical electronics",21,23
+"1156","structural bioinformatics",2021,"USACH","Bioinformatics/Genetic engineering",9,14
+"1157","technical efficiency",2021,"USACH","Clinical engineering",3,3
+"1158","technical efficiency",2020,"USACH","Clinical engineering",3,5
+"1159","telehealth",2015,"UV","Medical Informatics",12,13
+"1160","telehealth",2015,"UV","Medical Informatics",12,13
+"1161","telemedicine",2012,"UdeC","Medical Informatics",5,5
+"1162","telemedicine",2012,"UdeC","Medical Informatics",5,5
+"1163","telemedicine",2022,"UV","Medical Informatics",4,4
+"1164","telemedicine",2012,"UdeC","Medical Informatics",5,5
+"1165","telemedicine",2016,"UV","Medical Informatics",3,3
+"1166","telemedicine",2015,"UV","Medical Informatics",12,13
+"1167","telemedicine",2012,"UdeC","Medical Informatics",5,5
+"1168","telemedicine",2015,"UV","Medical Informatics",12,13
+"1169","telemedicine",2015,"UV","Medical Informatics",12,13
+"1170","telemedicine",2015,"UV","Medical Informatics",12,13
+"1171","telemedicine",2017,"UV","Medical Informatics",2,8
+"1172","telemedicine",2016,"UV","Medical Informatics",3,3
+"1173","telemedicine",2015,"UV","Medical Informatics",12,13
+"1174","telemedicine",2022,"UV","Medical Informatics",4,4
+"1175","telemedicine",2017,"UV","Medical Informatics",2,8
+"1176","telemedicine",2015,"UV","Medical Informatics",12,13
+"1177","tissue engineering",2021,"USACH","Cellular and tissue engineering",1,1
+"1178","tomography",2015,"UdeC","Medical Imaging",12,26
+"1179","tomography",2015,"UdeC","Medical Imaging",12,26
+"1180","tomography",2013,"UdeC","Medical Imaging",14,14
+"1181","tomography",2012,"UdeC","Medical Imaging",2,14
+"1182","tomography",2012,"UV","Medical Imaging",12,14
+"1183","tomography",2015,"UdeC","Medical Imaging",12,26
+"1184","tomography",2015,"UdeC","Medical Imaging",12,26
+"1185","tomography",2022,"UV","Medical Imaging",91,106
+"1186","tomography",2014,"UdeC","Medical Imaging",7,10
+"1187","tomography",2015,"UdeC","Medical Imaging",12,26
+"1188","tomography",2008,"UdeC","Medical Imaging",9,9
+"1189","tomography",2020,"UV","Medical Imaging",58,65
+"1190","tomography",2022,"UV","Medical Imaging",91,106
+"1191","tomography",2015,"UV","Medical Imaging",14,26
+"1192","tomography",2022,"UV","Medical Imaging",91,106
+"1193","tomography",2017,"UdeC","Medical Imaging",21,30
+"1194","tomography",2012,"UV","Medical Imaging",12,14
+"1195","tomography",2013,"UdeC","Medical Imaging",14,14
+"1196","tomography",2014,"UdeC","Medical Imaging",7,10
+"1197","tomography",2015,"UV","Medical Imaging",14,26
+"1198","tomography",2008,"UdeC","Medical Imaging",9,9
+"1199","tomography",2017,"UdeC","Medical Imaging",21,30
+"1200","tomography",2020,"UV","Medical Imaging",58,65
+"1201","tomography",2014,"UdeC","Medical Imaging",7,10
+"1202","tomography",2014,"UdeC","Medical Imaging",7,10
+"1203","tomography",2008,"UdeC","Medical Imaging",9,9
+"1204","tomography",2015,"UdeC","Medical Imaging",12,26
+"1205","tomography",2017,"UdeC","Medical Imaging",21,30
+"1206","tomography",2020,"UV","Medical Imaging",58,65
+"1207","tomography",2017,"UdeC","Medical Imaging",21,30
+"1208","tomography",2014,"UdeC","Medical Imaging",7,10
+"1209","visual evoked potential",2017,"UV","Bioinstrumentation/Biomedical electronics",8,17
+"1210","visual evoked potential",2016,"UV","Bioinstrumentation/Biomedical electronics",11,31
+"1211","visual evoked potential",2020,"UV","Bioinstrumentation/Biomedical electronics",8,11
+"1212","visual evoked potential",2020,"UV","Bioinstrumentation/Biomedical electronics",8,11
+"1213","x ray",2022,"UV","Medical Imaging",91,106
+"1214","x ray",2022,"UV","Medical Imaging",91,106
+"1215","x ray",2018,"UV","Medical Imaging",3,7
+"1216","x ray",2019,"UV","Medical Imaging",48,70
+"1217","x ray",2019,"UV","Medical Imaging",48,70
+"1218","x ray",2015,"UV","Medical Imaging",14,26
+"1219","x ray",2008,"UdeC","Medical Imaging",9,9
+"1220","x ray",2019,"UV","Medical Imaging",48,70
+"1221","NONE",2030,"UdeC","Biomechanics",10,10
+"1222","NONE",2030,"UdeC","Medical Imaging",10,10
+"1223","NONE",2030,"UdeC","Biofluids",10,10
+"1224","NONE",2030,"UdeC","Bioinformatics/Genetic engineering",10,10
+"1225","NONE",2030,"UdeC","Bioinstrumentation/Biomedical electronics",10,10
+"1226","NONE",2030,"UdeC","Systems Physiology",10,10
+"1227","NONE",2030,"UdeC","Biomaterials",10,10
+"1228","NONE",2030,"UdeC","Biomedical engineering",10,10
+"1229","NONE",2030,"UdeC","Rehabilitation/Orthopaedic Bioengineering",10,10
+"1230","NONE",2030,"UdeC","Medical Informatics",10,10
+"1231","NONE",2030,"UdeC","Biomechatronics",10,10
+"1232","NONE",2030,"UdeC","Cellular and tissue engineering",10,10
+"1233","NONE",2030,"UdeC","Clinical engineering",10,10
+"1234","NONE",2030,"UdeC","Neural Engineering",10,10
+"1235","NONE",2030,"UdeC","Bionics",10,10
+"1236","NONE",2030,"UV","Biomechanics",10,10
+"1237","NONE",2030,"UV","Medical Imaging",10,10
+"1238","NONE",2030,"UV","Biofluids",10,10
+"1239","NONE",2030,"UV","Bioinformatics/Genetic engineering",10,10
+"1240","NONE",2030,"UV","Bioinstrumentation/Biomedical electronics",10,10
+"1241","NONE",2030,"UV","Systems Physiology",10,10
+"1242","NONE",2030,"UV","Biomaterials",10,10
+"1243","NONE",2030,"UV","Biomedical engineering",10,10
+"1244","NONE",2030,"UV","Rehabilitation/Orthopaedic Bioengineering",10,10
+"1245","NONE",2030,"UV","Medical Informatics",10,10
+"1246","NONE",2030,"UV","Biomechatronics",10,10
+"1247","NONE",2030,"UV","Cellular and tissue engineering",10,10
+"1248","NONE",2030,"UV","Clinical engineering",10,10
+"1249","NONE",2030,"UV","Neural Engineering",10,10
+"1250","NONE",2030,"UV","Bionics",10,10
+"1251","NONE",2030,"USACH","Biomechanics",10,10
+"1252","NONE",2030,"USACH","Medical Imaging",10,10
+"1253","NONE",2030,"USACH","Biofluids",10,10
+"1254","NONE",2030,"USACH","Bioinformatics/Genetic engineering",10,10
+"1255","NONE",2030,"USACH","Bioinstrumentation/Biomedical electronics",10,10
+"1256","NONE",2030,"USACH","Systems Physiology",10,10
+"1257","NONE",2030,"USACH","Biomaterials",10,10
+"1258","NONE",2030,"USACH","Biomedical engineering",10,10
+"1259","NONE",2030,"USACH","Rehabilitation/Orthopaedic Bioengineering",10,10
+"1260","NONE",2030,"USACH","Medical Informatics",10,10
+"1261","NONE",2030,"USACH","Biomechatronics",10,10
+"1262","NONE",2030,"USACH","Cellular and tissue engineering",10,10
+"1263","NONE",2030,"USACH","Clinical engineering",10,10
+"1264","NONE",2030,"USACH","Neural Engineering",10,10
+"1265","NONE",2030,"USACH","Bionics",10,10
