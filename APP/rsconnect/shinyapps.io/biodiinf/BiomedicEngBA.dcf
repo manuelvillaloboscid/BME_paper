@@ -1,0 +1,13 @@
+name: BiomedicEngBA
+title: BiomedicEngBA
+username:
+account: biodiinf
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9035348
+bundleId: 7177143
+url: https://biodiinf.shinyapps.io/BiomedicEngBA/
+when: 1683266181.67589
+lastSyncTime: 1683266181.6759
+asMultiple: FALSE
+asStatic: FALSE
